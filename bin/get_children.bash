@@ -1,4 +1,6 @@
 #!/bin/bash -e
+# usage : ./bin/get_children.bash droid
+
 XML_FILE=android-m-targets-all.gexf
 
 if [ -z "$1" ];then

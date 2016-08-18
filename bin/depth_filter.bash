@@ -1,4 +1,5 @@
-#!/bin/bash -ex
+#!/bin/bash -e
+# usage : ./bin/depth_filter.bash 3 droid
 XML_FILE=android-m-targets-all.gexf
 OUTPUT_GEXF=tmp/new.gexf
 
@@ -61,3 +62,5 @@ echo "    <edges>" >> ${OUTPUT_GEXF}
 cat tmp/edges >> ${OUTPUT_GEXF}
 echo "    </edges>" >> ${OUTPUT_GEXF}
 tail -2 ${XML_FILE} >> ${OUTPUT_GEXF}
+
+echo "find the result in tmp dir"
