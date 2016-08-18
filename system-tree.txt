@@ -1,0 +1,1675 @@
+.
+|-- app
+|   |-- BasicDreams
+|   |   |-- BasicDreams.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- BasicDreams.odex
+|   |-- Bluetooth
+|   |   |-- Bluetooth.apk
+|   |   |-- lib
+|   |   |   `-- arm
+|   |   |       `-- libbluetooth_jni.so -> /system/lib/libbluetooth_jni.so
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Bluetooth.odex
+|   |-- BluetoothMidiService
+|   |   |-- BluetoothMidiService.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- BluetoothMidiService.odex
+|   |-- Browser
+|   |   |-- Browser.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Browser.odex
+|   |-- Calendar
+|   |   |-- Calendar.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Calendar.odex
+|   |-- Camera2
+|   |   |-- Camera2.apk
+|   |   |-- lib
+|   |   |   `-- arm
+|   |   |       |-- libjni_jpegutil.so -> /system/lib/libjni_jpegutil.so
+|   |   |       `-- libjni_tinyplanet.so -> /system/lib/libjni_tinyplanet.so
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Camera2.odex
+|   |-- CaptivePortalLogin
+|   |   |-- CaptivePortalLogin.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- CaptivePortalLogin.odex
+|   |-- CertInstaller
+|   |   |-- CertInstaller.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- CertInstaller.odex
+|   |-- DeskClock
+|   |   |-- DeskClock.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- DeskClock.odex
+|   |-- Development
+|   |   |-- Development.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Development.odex
+|   |-- DocumentsUI
+|   |   |-- DocumentsUI.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- DocumentsUI.odex
+|   |-- DownloadProviderUi
+|   |   |-- DownloadProviderUi.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- DownloadProviderUi.odex
+|   |-- Email
+|   |   |-- Email.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Email.odex
+|   |-- ExactCalculator
+|   |   |-- ExactCalculator.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- ExactCalculator.odex
+|   |-- Exchange2
+|   |   |-- Exchange2.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Exchange2.odex
+|   |-- Galaxy4
+|   |   |-- Galaxy4.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Galaxy4.odex
+|   |-- Gallery2
+|   |   |-- Gallery2.apk
+|   |   |-- lib
+|   |   |   `-- arm
+|   |   |       |-- libjni_eglfence.so -> /system/lib/libjni_eglfence.so
+|   |   |       |-- libjni_filtershow_filters.so -> /system/lib/libjni_filtershow_filters.so
+|   |   |       |-- libjni_jpegstream.so -> /system/lib/libjni_jpegstream.so
+|   |   |       `-- librsjni.so -> /system/lib/librsjni.so
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Gallery2.odex
+|   |-- HoloSpiralWallpaper
+|   |   |-- HoloSpiralWallpaper.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- HoloSpiralWallpaper.odex
+|   |-- HTMLViewer
+|   |   |-- HTMLViewer.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- HTMLViewer.odex
+|   |-- KeyChain
+|   |   |-- KeyChain.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- KeyChain.odex
+|   |-- LatinIME
+|   |   |-- LatinIME.apk
+|   |   |-- lib
+|   |   |   `-- arm
+|   |   |       `-- libjni_latinime.so -> /system/lib/libjni_latinime.so
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- LatinIME.odex
+|   |-- LiveWallpapers
+|   |   |-- LiveWallpapers.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- LiveWallpapers.odex
+|   |-- LiveWallpapersPicker
+|   |   |-- LiveWallpapersPicker.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- LiveWallpapersPicker.odex
+|   |-- messaging
+|   |   |-- messaging.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- messaging.odex
+|   |-- Music
+|   |   |-- Music.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Music.odex
+|   |-- NoiseField
+|   |   |-- NoiseField.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- NoiseField.odex
+|   |-- OpenWnn
+|   |   |-- lib
+|   |   |   `-- arm
+|   |   |       |-- libwnndict.so -> /system/lib/libwnndict.so
+|   |   |       |-- libWnnEngDic.so -> /system/lib/libWnnEngDic.so
+|   |   |       `-- libWnnJpnDic.so -> /system/lib/libWnnJpnDic.so
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- OpenWnn.odex
+|   |   `-- OpenWnn.apk
+|   |-- PacProcessor
+|   |   |-- lib
+|   |   |   `-- arm
+|   |   |       `-- libjni_pacprocessor.so -> /system/lib/libjni_pacprocessor.so
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- PacProcessor.odex
+|   |   `-- PacProcessor.apk
+|   |-- PhaseBeam
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- PhaseBeam.odex
+|   |   `-- PhaseBeam.apk
+|   |-- PhotoTable
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- PhotoTable.odex
+|   |   `-- PhotoTable.apk
+|   |-- PicoTts
+|   |   |-- lib
+|   |   |   `-- arm
+|   |   |       |-- libttscompat.so -> /system/lib/libttscompat.so
+|   |   |       `-- libttspico.so -> /system/lib/libttspico.so
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- PicoTts.odex
+|   |   `-- PicoTts.apk
+|   |-- PrintSpooler
+|   |   |-- lib
+|   |   |   `-- arm
+|   |   |       `-- libprintspooler_jni.so -> /system/lib/libprintspooler_jni.so
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- PrintSpooler.odex
+|   |   `-- PrintSpooler.apk
+|   |-- Provision
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- Provision.odex
+|   |   `-- Provision.apk
+|   |-- QuickSearchBox
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- QuickSearchBox.odex
+|   |   `-- QuickSearchBox.apk
+|   |-- SoundRecorder
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- SoundRecorder.odex
+|   |   `-- SoundRecorder.apk
+|   |-- UserDictionaryProvider
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- UserDictionaryProvider.odex
+|   |   `-- UserDictionaryProvider.apk
+|   |-- WAPPushManager
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- WAPPushManager.odex
+|   |   `-- WAPPushManager.apk
+|   `-- webview
+|       |-- oat
+|       |   `-- arm
+|       |       `-- webview.odex
+|       `-- webview.apk
+|-- bin
+|   |-- acpi -> toybox
+|   |-- am
+|   |-- applypatch
+|   |-- applypatch_static
+|   |-- appops
+|   |-- app_process -> app_process32
+|   |-- app_process32
+|   |-- appwidget
+|   |-- atrace
+|   |-- basename -> toybox
+|   |-- bcc
+|   |-- bdt
+|   |-- blkid
+|   |-- blockdev -> toybox
+|   |-- bmgr
+|   |-- bootanimation
+|   |-- bu
+|   |-- bugreport
+|   |-- bzcat -> toybox
+|   |-- cal -> toybox
+|   |-- cat -> toybox
+|   |-- chcon -> toybox
+|   |-- check_prereq
+|   |-- chgrp -> toybox
+|   |-- chmod -> toybox
+|   |-- chown -> toybox
+|   |-- chroot -> toybox
+|   |-- cjpeg
+|   |-- cksum -> toybox
+|   |-- clatd
+|   |-- clear -> toybox
+|   |-- cmp -> toybox
+|   |-- comm -> toybox
+|   |-- content
+|   |-- cp -> toybox
+|   |-- cpio -> toybox
+|   |-- cut -> toybox
+|   |-- dalvikvm -> dalvikvm32
+|   |-- dalvikvm32
+|   |-- date -> toybox
+|   |-- dd -> toolbox
+|   |-- debuggerd
+|   |-- dex2oat
+|   |-- df -> toolbox
+|   |-- dhcpcd
+|   |-- dhcptool
+|   |-- dirname -> toybox
+|   |-- djpeg
+|   |-- dmesg -> toybox
+|   |-- dnsmasq
+|   |-- dos2unix -> toybox
+|   |-- dpm
+|   |-- drmserver
+|   |-- du -> toolbox
+|   |-- dumpstate
+|   |-- dumpsys
+|   |-- e2fsck
+|   |-- echo -> toybox
+|   |-- egrep -> grep
+|   |-- env -> toybox
+|   |-- expand -> toybox
+|   |-- expr -> toybox
+|   |-- fallocate -> toybox
+|   |-- false -> toybox
+|   |-- fgrep -> grep
+|   |-- find -> toybox
+|   |-- fingerprintd
+|   |-- flash_image
+|   |-- free -> toybox
+|   |-- fsck.f2fs
+|   |-- fsck_msdos
+|   |-- gatekeeperd
+|   |-- gdbserver
+|   |-- getenforce -> toybox
+|   |-- getevent -> toolbox
+|   |-- getprop -> toybox
+|   |-- grep
+|   |-- groups -> toybox
+|   |-- gzip
+|   |-- head -> toybox
+|   |-- hid
+|   |-- hostname -> toybox
+|   |-- hwclock -> toybox
+|   |-- id -> toybox
+|   |-- idmap
+|   |-- ifconfig -> toybox
+|   |-- iftop -> toolbox
+|   |-- ime
+|   |-- inotifyd -> toybox
+|   |-- input
+|   |-- insmod -> toybox
+|   |-- installd
+|   |-- ioctl -> toolbox
+|   |-- ionice -> toolbox
+|   |-- ip
+|   |-- ip6tables
+|   |-- iptables
+|   |-- keystore
+|   |-- keystore_cli
+|   |-- kill -> toybox
+|   |-- ld.mc
+|   |-- linker
+|   |-- lmkd
+|   |-- ln -> toybox
+|   |-- load_policy -> toybox
+|   |-- log -> toolbox
+|   |-- logcat
+|   |-- logd
+|   |-- logname -> toybox
+|   |-- logpersist.cat -> logpersist.start
+|   |-- logpersist.start
+|   |-- logpersist.stop -> logpersist.start
+|   |-- logwrapper
+|   |-- losetup -> toybox
+|   |-- ls -> toolbox
+|   |-- lsmod -> toybox
+|   |-- lsof -> toolbox
+|   |-- lsusb -> toybox
+|   |-- make_ext4fs
+|   |-- make_f2fs
+|   |-- md5sum -> toybox
+|   |-- mdnsd
+|   |-- media
+|   |-- mediaserver
+|   |-- mkdir -> toybox
+|   |-- mknod -> toybox
+|   |-- mkswap -> toybox
+|   |-- mktemp -> toybox
+|   |-- modinfo -> toybox
+|   |-- monkey
+|   |-- more -> toybox
+|   |-- mount -> toolbox
+|   |-- mountpoint -> toybox
+|   |-- mtpd
+|   |-- mv -> toybox
+|   |-- nandread -> toolbox
+|   |-- ndc
+|   |-- netd
+|   |-- netstat -> toybox
+|   |-- newfs_msdos -> toolbox
+|   |-- nice -> toybox
+|   |-- nl -> toybox
+|   |-- nohup -> toybox
+|   |-- oatdump
+|   |-- od -> toybox
+|   |-- paste -> toybox
+|   |-- patch -> toybox
+|   |-- patchoat
+|   |-- perf
+|   |-- pgrep -> toybox
+|   |-- pidof -> toybox
+|   |-- ping
+|   |-- ping6
+|   |-- pkill -> toybox
+|   |-- pm
+|   |-- pmap -> toybox
+|   |-- pngtest
+|   |-- pppd
+|   |-- printenv -> toybox
+|   |-- printf -> toybox
+|   |-- prlimit -> toolbox
+|   |-- ps -> toolbox
+|   |-- pwd -> toybox
+|   |-- qemud
+|   |-- qemu-props
+|   |-- r
+|   |-- racoon
+|   |-- radiooptions
+|   |-- readlink -> toybox
+|   |-- realpath -> toybox
+|   |-- reboot
+|   |-- renice -> toolbox
+|   |-- requestsync
+|   |-- resize2fs
+|   |-- restorecon -> toybox
+|   |-- rild
+|   |-- rm -> toybox
+|   |-- rmdir -> toybox
+|   |-- rmmod -> toybox
+|   |-- route -> toybox
+|   |-- run-as
+|   |-- runcon -> toybox
+|   |-- schedtest
+|   |-- screencap
+|   |-- screenrecord
+|   |-- sdcard
+|   |-- secdiscard
+|   |-- sed -> toybox
+|   |-- sendevent -> toolbox
+|   |-- sensorservice
+|   |-- seq -> toybox
+|   |-- service
+|   |-- servicemanager
+|   |-- setenforce -> toybox
+|   |-- setprop -> toybox
+|   |-- setsid -> toybox
+|   |-- settings
+|   |-- sgdisk
+|   |-- sh
+|   |-- sha1sum -> toybox
+|   |-- showlease
+|   |-- sleep -> toybox
+|   |-- sm
+|   |-- sort -> toybox
+|   |-- split -> toybox
+|   |-- start -> toolbox
+|   |-- stat -> toybox
+|   |-- stop -> toolbox
+|   |-- strings -> toybox
+|   |-- surfaceflinger
+|   |-- svc
+|   |-- swapoff -> toybox
+|   |-- swapon -> toybox
+|   |-- sync -> toybox
+|   |-- sysctl -> toybox
+|   |-- tac -> toybox
+|   |-- tail -> toybox
+|   |-- tar -> toybox
+|   |-- taskset -> toybox
+|   |-- tc
+|   |-- tee -> toybox
+|   |-- telecom
+|   |-- time -> toybox
+|   |-- timeout -> toybox
+|   |-- toolbox
+|   |-- top -> toolbox
+|   |-- touch -> toybox
+|   |-- toybox
+|   |-- tr -> toybox
+|   |-- tracepath
+|   |-- tracepath6
+|   |-- traceroute6
+|   |-- true -> toybox
+|   |-- truncate -> toybox
+|   |-- tzdatacheck
+|   |-- uiautomator
+|   |-- umount -> toybox
+|   |-- uname -> toybox
+|   |-- uncrypt
+|   |-- uniq -> toybox
+|   |-- unix2dos -> toybox
+|   |-- updater
+|   |-- uptime -> toolbox
+|   |-- usleep -> toybox
+|   |-- vdc
+|   |-- vmstat -> toybox
+|   |-- vold
+|   |-- watchprops -> toolbox
+|   |-- wc -> toybox
+|   |-- which -> toybox
+|   |-- whoami -> toybox
+|   |-- wm
+|   |-- xargs -> toybox
+|   `-- yes -> toybox
+|-- build.prop
+|-- etc
+|   |-- apns-conf.xml
+|   |-- audio_effects.conf
+|   |-- audio_policy.conf
+|   |-- bluetooth
+|   |   |-- auto_pair_devlist.conf
+|   |   |-- bt_did.conf
+|   |   `-- bt_stack.conf
+|   |-- clatd.conf
+|   |-- dhcpcd
+|   |   |-- dhcpcd-hooks
+|   |   |   |-- 20-dns.conf
+|   |   |   `-- 95-configured
+|   |   `-- dhcpcd-run-hooks
+|   |-- event-log-tags
+|   |-- fallback_fonts.xml
+|   |-- fonts.xml
+|   |-- hosts
+|   |-- init.goldfish.sh
+|   |-- media_codecs_google_audio.xml
+|   |-- media_codecs_google_telephony.xml
+|   |-- media_codecs_google_video.xml
+|   |-- media_codecs.xml
+|   |-- media_profiles.xml
+|   |-- mkshrc
+|   |-- NOTICE.html.gz
+|   |-- permissions
+|   |   |-- android.hardware.ethernet.xml
+|   |   |-- android.software.live_wallpaper.xml
+|   |   |-- android.software.webview.xml
+|   |   |-- com.android.location.provider.xml
+|   |   |-- com.android.mediadrm.signer.xml
+|   |   |-- com.android.media.remotedisplay.xml
+|   |   |-- handheld_core_hardware.xml
+|   |   `-- platform.xml
+|   |-- ppp
+|   |   `-- ip-up-vpn
+|   |-- preloaded-classes
+|   |-- security
+|   |   |-- cacerts
+|   |   |   |-- 00673b5b.0
+|   |   |   |-- 02b73561.0
+|   |   |   |-- 03f2b8cf.0
+|   |   |   |-- 04f60c28.0
+|   |   |   |-- 052e396b.0
+|   |   |   |-- 08aef7bb.0
+|   |   |   |-- 0d5a4e1c.0
+|   |   |   |-- 0d69c7e1.0
+|   |   |   |-- 10531352.0
+|   |   |   |-- 111e6273.0
+|   |   |   |-- 119afc2e.0
+|   |   |   |-- 124bbd54.0
+|   |   |   |-- 12d55845.0
+|   |   |   |-- 1676090a.0
+|   |   |   |-- 17b51fe6.0
+|   |   |   |-- 1dac3003.0
+|   |   |   |-- 1dcd6f4c.0
+|   |   |   |-- 1df5a75f.0
+|   |   |   |-- 1e1eab7c.0
+|   |   |   |-- 1e8e7201.0
+|   |   |   |-- 1eb37bdf.0
+|   |   |   |-- 1f58a078.0
+|   |   |   |-- 21855f49.0
+|   |   |   |-- 219d9499.0
+|   |   |   |-- 23f4c490.0
+|   |   |   |-- 27af790d.0
+|   |   |   |-- 2add47b6.0
+|   |   |   |-- 2d9dafe4.0
+|   |   |   |-- 2fa87019.0
+|   |   |   |-- 33815e15.0
+|   |   |   |-- 33815e15.1
+|   |   |   |-- 343eb6cb.0
+|   |   |   |-- 35105088.0
+|   |   |   |-- 399e7759.0
+|   |   |   |-- 3a3b02ce.0
+|   |   |   |-- 3ad48a91.0
+|   |   |   |-- 3c58f906.0
+|   |   |   |-- 3c6676aa.0
+|   |   |   |-- 3c860d51.0
+|   |   |   |-- 3c9a4d3b.0
+|   |   |   |-- 3d441de8.0
+|   |   |   |-- 3e7271e8.0
+|   |   |   |-- 40dc992e.0
+|   |   |   |-- 418595b9.0
+|   |   |   |-- 450c6e38.0
+|   |   |   |-- 455f1b52.0
+|   |   |   |-- 48a195d8.0
+|   |   |   |-- 4be590e0.0
+|   |   |   |-- 4d654d1d.0
+|   |   |   |-- 4e18c148.0
+|   |   |   |-- 4fbd6bfa.0
+|   |   |   |-- 5046c355.0
+|   |   |   |-- 524d9b43.0
+|   |   |   |-- 52b525c7.0
+|   |   |   |-- 56b8a0b6.0
+|   |   |   |-- 57692373.0
+|   |   |   |-- 58a44af1.0
+|   |   |   |-- 594f1775.0
+|   |   |   |-- 5a250ea7.0
+|   |   |   |-- 5a3f0ff8.0
+|   |   |   |-- 5cf9d536.0
+|   |   |   |-- 5e4e69e7.0
+|   |   |   |-- 5f47b495.0
+|   |   |   |-- 60afe812.0
+|   |   |   |-- 63a2c897.0
+|   |   |   |-- 6645de82.0
+|   |   |   |-- 67495436.0
+|   |   |   |-- 69105f4f.0
+|   |   |   |-- 6e8bf996.0
+|   |   |   |-- 6fcc125d.0
+|   |   |   |-- 72f369af.0
+|   |   |   |-- 75680d2e.0
+|   |   |   |-- 7651b327.0
+|   |   |   |-- 76579174.0
+|   |   |   |-- 7672ac4b.0
+|   |   |   |-- 7999be0d.0
+|   |   |   |-- 7a819ef2.0
+|   |   |   |-- 7d3cd826.0
+|   |   |   |-- 7d453d8f.0
+|   |   |   |-- 81b9768f.0
+|   |   |   |-- 82223c44.0
+|   |   |   |-- 8470719d.0
+|   |   |   |-- 84cba82f.0
+|   |   |   |-- 85cde254.0
+|   |   |   |-- 86212b19.0
+|   |   |   |-- 87753b0d.0
+|   |   |   |-- 882de061.0
+|   |   |   |-- 895cad1a.0
+|   |   |   |-- 89c02a45.0
+|   |   |   |-- 8d6437c3.0
+|   |   |   |-- 91739615.0
+|   |   |   |-- 9282e51c.0
+|   |   |   |-- 9339512a.0
+|   |   |   |-- 9576d26b.0
+|   |   |   |-- 95aff9e3.0
+|   |   |   |-- 961f5451.0
+|   |   |   |-- 9685a493.0
+|   |   |   |-- 9772ca32.0
+|   |   |   |-- 9ab62355.0
+|   |   |   |-- 9d6523ce.0
+|   |   |   |-- 9dbefe7b.0
+|   |   |   |-- 9f533518.0
+|   |   |   |-- a0bc6fbb.0
+|   |   |   |-- a2c66da8.0
+|   |   |   |-- a2df7ad7.0
+|   |   |   |-- a3896b44.0
+|   |   |   |-- a7605362.0
+|   |   |   |-- a7d2cf64.0
+|   |   |   |-- ab5346f4.0
+|   |   |   |-- add67345.0
+|   |   |   |-- aeb67534.0
+|   |   |   |-- b0ed035a.0
+|   |   |   |-- b0f3e76e.0
+|   |   |   |-- b3fb433b.0
+|   |   |   |-- b7db1890.0
+|   |   |   |-- b872f2b4.0
+|   |   |   |-- bc3f2570.0
+|   |   |   |-- bdacca6f.0
+|   |   |   |-- bf64f35b.0
+|   |   |   |-- c3a6a9ad.0
+|   |   |   |-- c491639e.0
+|   |   |   |-- c51c224c.0
+|   |   |   |-- c527e4ab.0
+|   |   |   |-- c7e2a638.0
+|   |   |   |-- c90bc37d.0
+|   |   |   |-- cb156124.0
+|   |   |   |-- ccc52f49.0
+|   |   |   |-- cdaebb72.0
+|   |   |   |-- cf701eeb.0
+|   |   |   |-- d06393bb.0
+|   |   |   |-- d16a5865.0
+|   |   |   |-- d18e9066.0
+|   |   |   |-- d4c339cb.0
+|   |   |   |-- d59297b8.0
+|   |   |   |-- d64f06f3.0
+|   |   |   |-- d66b55d9.0
+|   |   |   |-- d6e6eab9.0
+|   |   |   |-- d7746a63.0
+|   |   |   |-- dbc54cab.0
+|   |   |   |-- e268a4c5.0
+|   |   |   |-- e442e424.0
+|   |   |   |-- e48193cf.0
+|   |   |   |-- e60bf0c0.0
+|   |   |   |-- e775ed2d.0
+|   |   |   |-- e8651083.0
+|   |   |   |-- ea169617.0
+|   |   |   |-- ed39abd0.0
+|   |   |   |-- ed524cf5.0
+|   |   |   |-- ee7cd6fb.0
+|   |   |   |-- ee90b008.0
+|   |   |   |-- f58a60fe.0
+|   |   |   |-- f61bff45.0
+|   |   |   |-- f80cc7f6.0
+|   |   |   |-- fac084d7.0
+|   |   |   |-- facacbc6.0
+|   |   |   |-- fb126c6d.0
+|   |   |   |-- fde84897.0
+|   |   |   `-- ff783690.0
+|   |   |-- mac_permissions.xml
+|   |   `-- otacerts.zip
+|   |-- sepolicy.recovery
+|   `-- system_fonts.xml
+|-- fonts
+|   |-- AndroidClock_Highlight.ttf
+|   |-- AndroidClock_Solid.ttf
+|   |-- AndroidClock.ttf
+|   |-- CarroisGothicSC-Regular.ttf
+|   |-- Clockopia.ttf
+|   |-- ComingSoon.ttf
+|   |-- CutiveMono.ttf
+|   |-- DancingScript-Bold.ttf
+|   |-- DancingScript-Regular.ttf
+|   |-- DroidSans-Bold.ttf -> Roboto-Bold.ttf
+|   |-- DroidSansMono.ttf
+|   |-- DroidSans.ttf -> Roboto-Regular.ttf
+|   |-- NotoColorEmoji.ttf
+|   |-- NotoNaskhArabic-Bold.ttf
+|   |-- NotoNaskhArabic-Regular.ttf
+|   |-- NotoNaskhArabicUI-Bold.ttf
+|   |-- NotoNaskhArabicUI-Regular.ttf
+|   |-- NotoSansArmenian-Bold.ttf
+|   |-- NotoSansArmenian-Regular.ttf
+|   |-- NotoSansBalinese-Regular.ttf
+|   |-- NotoSansBamum-Regular.ttf
+|   |-- NotoSansBatak-Regular.ttf
+|   |-- NotoSansBengali-Bold.ttf
+|   |-- NotoSansBengali-Regular.ttf
+|   |-- NotoSansBengaliUI-Bold.ttf
+|   |-- NotoSansBengaliUI-Regular.ttf
+|   |-- NotoSansBuginese-Regular.ttf
+|   |-- NotoSansBuhid-Regular.ttf
+|   |-- NotoSansCanadianAboriginal-Regular.ttf
+|   |-- NotoSansCham-Bold.ttf
+|   |-- NotoSansCham-Regular.ttf
+|   |-- NotoSansCherokee-Regular.ttf
+|   |-- NotoSansCoptic-Regular.ttf
+|   |-- NotoSansDevanagari-Bold.ttf
+|   |-- NotoSansDevanagari-Regular.ttf
+|   |-- NotoSansDevanagariUI-Bold.ttf
+|   |-- NotoSansDevanagariUI-Regular.ttf
+|   |-- NotoSansEthiopic-Bold.ttf
+|   |-- NotoSansEthiopic-Regular.ttf
+|   |-- NotoSansGeorgian-Bold.ttf
+|   |-- NotoSansGeorgian-Regular.ttf
+|   |-- NotoSansGlagolitic-Regular.ttf
+|   |-- NotoSansGujarati-Bold.ttf
+|   |-- NotoSansGujarati-Regular.ttf
+|   |-- NotoSansGujaratiUI-Bold.ttf
+|   |-- NotoSansGujaratiUI-Regular.ttf
+|   |-- NotoSansGurmukhi-Bold.ttf
+|   |-- NotoSansGurmukhi-Regular.ttf
+|   |-- NotoSansGurmukhiUI-Bold.ttf
+|   |-- NotoSansGurmukhiUI-Regular.ttf
+|   |-- NotoSansHanunoo-Regular.ttf
+|   |-- NotoSansHebrew-Bold.ttf
+|   |-- NotoSansHebrew-Regular.ttf
+|   |-- NotoSansJavanese-Regular.ttf
+|   |-- NotoSansJP-Regular.otf
+|   |-- NotoSansKannada-Bold.ttf
+|   |-- NotoSansKannada-Regular.ttf
+|   |-- NotoSansKannadaUI-Bold.ttf
+|   |-- NotoSansKannadaUI-Regular.ttf
+|   |-- NotoSansKayahLi-Regular.ttf
+|   |-- NotoSansKhmer-Bold.ttf
+|   |-- NotoSansKhmer-Regular.ttf
+|   |-- NotoSansKhmerUI-Bold.ttf
+|   |-- NotoSansKhmerUI-Regular.ttf
+|   |-- NotoSansKR-Regular.otf
+|   |-- NotoSansLao-Bold.ttf
+|   |-- NotoSansLao-Regular.ttf
+|   |-- NotoSansLaoUI-Bold.ttf
+|   |-- NotoSansLaoUI-Regular.ttf
+|   |-- NotoSansLepcha-Regular.ttf
+|   |-- NotoSansLimbu-Regular.ttf
+|   |-- NotoSansLisu-Regular.ttf
+|   |-- NotoSansMalayalam-Bold.ttf
+|   |-- NotoSansMalayalam-Regular.ttf
+|   |-- NotoSansMalayalamUI-Bold.ttf
+|   |-- NotoSansMalayalamUI-Regular.ttf
+|   |-- NotoSansMandaic-Regular.ttf
+|   |-- NotoSansMeeteiMayek-Regular.ttf
+|   |-- NotoSansMongolian-Regular.ttf
+|   |-- NotoSansMyanmar-Bold.ttf
+|   |-- NotoSansMyanmar-Regular.ttf
+|   |-- NotoSansMyanmarUI-Bold.ttf
+|   |-- NotoSansMyanmarUI-Regular.ttf
+|   |-- NotoSansNewTaiLue-Regular.ttf
+|   |-- NotoSansNKo-Regular.ttf
+|   |-- NotoSansOlChiki-Regular.ttf
+|   |-- NotoSansOriya-Bold.ttf
+|   |-- NotoSansOriya-Regular.ttf
+|   |-- NotoSansOriyaUI-Bold.ttf
+|   |-- NotoSansOriyaUI-Regular.ttf
+|   |-- NotoSansRejang-Regular.ttf
+|   |-- NotoSansSaurashtra-Regular.ttf
+|   |-- NotoSansSC-Regular.otf
+|   |-- NotoSansSinhala-Bold.ttf
+|   |-- NotoSansSinhala-Regular.ttf
+|   |-- NotoSansSundanese-Regular.ttf
+|   |-- NotoSansSylotiNagri-Regular.ttf
+|   |-- NotoSansSymbols-Regular-Subsetted.ttf
+|   |-- NotoSansSyriacEstrangela-Regular.ttf
+|   |-- NotoSansTagbanwa-Regular.ttf
+|   |-- NotoSansTaiLe-Regular.ttf
+|   |-- NotoSansTaiTham-Regular.ttf
+|   |-- NotoSansTaiViet-Regular.ttf
+|   |-- NotoSansTamil-Bold.ttf
+|   |-- NotoSansTamil-Regular.ttf
+|   |-- NotoSansTamilUI-Bold.ttf
+|   |-- NotoSansTamilUI-Regular.ttf
+|   |-- NotoSansTC-Regular.otf
+|   |-- NotoSansTelugu-Bold.ttf
+|   |-- NotoSansTelugu-Regular.ttf
+|   |-- NotoSansTeluguUI-Bold.ttf
+|   |-- NotoSansTeluguUI-Regular.ttf
+|   |-- NotoSansThaana-Bold.ttf
+|   |-- NotoSansThaana-Regular.ttf
+|   |-- NotoSansThai-Bold.ttf
+|   |-- NotoSansThai-Regular.ttf
+|   |-- NotoSansThaiUI-Bold.ttf
+|   |-- NotoSansThaiUI-Regular.ttf
+|   |-- NotoSansTibetan-Regular.ttf
+|   |-- NotoSansTifinagh-Regular.ttf
+|   |-- NotoSansVai-Regular.ttf
+|   |-- NotoSansYi-Regular.ttf
+|   |-- NotoSerif-BoldItalic.ttf
+|   |-- NotoSerif-Bold.ttf
+|   |-- NotoSerif-Italic.ttf
+|   |-- NotoSerif-Regular.ttf
+|   |-- Roboto-BlackItalic.ttf
+|   |-- Roboto-Black.ttf
+|   |-- Roboto-BoldItalic.ttf
+|   |-- Roboto-Bold.ttf
+|   |-- RobotoCondensed-BoldItalic.ttf
+|   |-- RobotoCondensed-Bold.ttf
+|   |-- RobotoCondensed-Italic.ttf
+|   |-- RobotoCondensed-LightItalic.ttf
+|   |-- RobotoCondensed-Light.ttf
+|   |-- RobotoCondensed-Regular.ttf
+|   |-- Roboto-Italic.ttf
+|   |-- Roboto-LightItalic.ttf
+|   |-- Roboto-Light.ttf
+|   |-- Roboto-MediumItalic.ttf
+|   |-- Roboto-Medium.ttf
+|   |-- Roboto-Regular.ttf
+|   |-- Roboto-ThinItalic.ttf
+|   `-- Roboto-Thin.ttf
+|-- framework
+|   |-- am.jar
+|   |-- android.test.runner.jar
+|   |-- apache-xml.jar
+|   |-- appops.jar
+|   |-- appwidget.jar
+|   |-- arm
+|   |   |-- boot.art
+|   |   `-- boot.oat
+|   |-- bmgr.jar
+|   |-- bouncycastle.jar
+|   |-- bu.jar
+|   |-- com.android.future.usb.accessory.jar
+|   |-- com.android.location.provider.jar
+|   |-- com.android.mediadrm.signer.jar
+|   |-- com.android.media.remotedisplay.jar
+|   |-- conscrypt.jar
+|   |-- content.jar
+|   |-- core-junit.jar
+|   |-- core-libart.jar
+|   |-- dpm.jar
+|   |-- ethernet-service.jar
+|   |-- ext.jar
+|   |-- framework.jar
+|   |-- framework-res.apk
+|   |-- hid.jar
+|   |-- ime.jar
+|   |-- ims-common.jar
+|   |-- input.jar
+|   |-- javax.obex.jar
+|   |-- media_cmd.jar
+|   |-- monkey.jar
+|   |-- oat
+|   |   `-- arm
+|   |       |-- am.odex
+|   |       |-- android.test.runner.odex
+|   |       |-- appops.odex
+|   |       |-- appwidget.odex
+|   |       |-- bmgr.odex
+|   |       |-- bu.odex
+|   |       |-- com.android.future.usb.accessory.odex
+|   |       |-- com.android.location.provider.odex
+|   |       |-- com.android.mediadrm.signer.odex
+|   |       |-- com.android.media.remotedisplay.odex
+|   |       |-- content.odex
+|   |       |-- dpm.odex
+|   |       |-- ethernet-service.odex
+|   |       |-- hid.odex
+|   |       |-- ime.odex
+|   |       |-- input.odex
+|   |       |-- javax.obex.odex
+|   |       |-- media_cmd.odex
+|   |       |-- monkey.odex
+|   |       |-- pm.odex
+|   |       |-- requestsync.odex
+|   |       |-- services.odex
+|   |       |-- settings.odex
+|   |       |-- sm.odex
+|   |       |-- svc.odex
+|   |       |-- telecom.odex
+|   |       |-- uiautomator.odex
+|   |       |-- wifi-service.odex
+|   |       `-- wm.odex
+|   |-- okhttp.jar
+|   |-- org.apache.http.legacy.boot.jar
+|   |-- pm.jar
+|   |-- requestsync.jar
+|   |-- services.jar
+|   |-- settings.jar
+|   |-- sm.jar
+|   |-- svc.jar
+|   |-- telecom.jar
+|   |-- telephony-common.jar
+|   |-- uiautomator.jar
+|   |-- voip-common.jar
+|   |-- wifi-service.jar
+|   `-- wm.jar
+|-- lib
+|   |-- crtbegin_so.o
+|   |-- crtend_so.o
+|   |-- drm
+|   |   `-- libfwdlockengine.so
+|   |-- egl
+|   |   |-- egl.cfg
+|   |   |-- libEGL_emulation.so
+|   |   |-- libGLES_android.so
+|   |   |-- libGLESv1_CM_emulation.so
+|   |   `-- libGLESv2_emulation.so
+|   |-- hw
+|   |   |-- audio_policy.default.so
+|   |   |-- audio.primary.default.so
+|   |   |-- audio.primary.goldfish.so
+|   |   |-- bluetooth.default.so
+|   |   |-- camera.goldfish.jpeg.so
+|   |   |-- camera.goldfish.so
+|   |   |-- fingerprint.goldfish.so
+|   |   |-- fingerprint.ranchu.so
+|   |   |-- gps.goldfish.so
+|   |   |-- gralloc.default.so
+|   |   |-- gralloc.goldfish.so
+|   |   |-- keystore.default.so
+|   |   |-- lights.goldfish.so
+|   |   |-- local_time.default.so
+|   |   |-- power.default.so
+|   |   |-- power.goldfish.so
+|   |   |-- sensors.goldfish.so
+|   |   |-- sensors.ranchu.so
+|   |   |-- vibrator.default.so
+|   |   `-- vibrator.goldfish.so
+|   |-- interrupter.so
+|   |-- invoke_mock_media_player.so
+|   |-- libandroidfw.so
+|   |-- libandroid_runtime.so
+|   |-- libandroid_servers.so
+|   |-- libandroid.so
+|   |-- libart-compiler.so
+|   |-- libart-disassembler.so
+|   |-- libart.so
+|   |-- libaudioeffect_jni.so
+|   |-- libaudioflinger.so
+|   |-- libaudiopolicyenginedefault.so
+|   |-- libaudiopolicymanagerdefault.so
+|   |-- libaudiopolicymanager.so
+|   |-- libaudiopolicyservice.so
+|   |-- libaudioresampler.so
+|   |-- libaudiospdif.so
+|   |-- libaudioutils.so
+|   |-- libbacktrace.so
+|   |-- libbacktrace_test.so
+|   |-- libbase.so
+|   |-- libbcc.so
+|   |-- libbcinfo.so
+|   |-- libbinder.so
+|   |-- libblas.so
+|   |-- libblasV8.so
+|   |-- libbluetooth_jni.so
+|   |-- libcamera_client.so
+|   |-- libcamera_metadata.so
+|   |-- libcameraservice.so
+|   |-- libclcore.bc
+|   |-- libclcore_debug.bc
+|   |-- libc_malloc_debug_leak.so
+|   |-- libc_malloc_debug_qemu.so
+|   |-- libcommon_time_client.so
+|   |-- libcompiler_rt.so
+|   |-- libcrypto.so
+|   |-- libc.so
+|   |-- libc++.so
+|   |-- libcutils.so
+|   |-- libdefcontainer_jni.so
+|   |-- libdiskconfig.so
+|   |-- libdl.so
+|   |-- libdrmframework_jni.so
+|   |-- libdrmframework.so
+|   |-- libeffects.so
+|   |-- libEGL.so
+|   |-- libETC1.so
+|   |-- libexif.so
+|   |-- libexpat.so
+|   |-- libext2_blkid.so
+|   |-- libext2_com_err.so
+|   |-- libext2_e2p.so
+|   |-- libext2fs.so
+|   |-- libext2_profile.so
+|   |-- libext2_quota.so
+|   |-- libext2_uuid.so
+|   |-- libext4_utils.so
+|   |-- libf2fs_sparseblock.so
+|   |-- libFFTEm.so
+|   |-- libfilterfw.so
+|   |-- libfilterpack_imageproc.so
+|   |-- libframesequence.so
+|   |-- libft2.so
+|   |-- libgabi++.so
+|   |-- libgatekeeper.so
+|   |-- libgiftranscode.so
+|   |-- libGLES_trace.so
+|   |-- libGLESv1_CM.so
+|   |-- libGLESv1_enc.so
+|   |-- libGLESv2_enc.so
+|   |-- libGLESv2.so
+|   |-- libGLESv3.so -> libGLESv2.so
+|   |-- libgui.so
+|   |-- libhardware_legacy.so
+|   |-- libhardware.so
+|   |-- libharfbuzz_ng.so
+|   |-- libhidcommand_jni.so
+|   |-- libhwui.so
+|   |-- libicui18n.so
+|   |-- libicuuc.so
+|   |-- libimg_utils.so
+|   |-- libinputflinger.so
+|   |-- libinputservice.so
+|   |-- libinput.so
+|   |-- libiprouteutil.so
+|   |-- libjavacore.so
+|   |-- libjavacrypto.so
+|   |-- libjhead_jni.so
+|   |-- libjhead.so
+|   |-- libjni_eglfence.so
+|   |-- libjni_filtershow_filters.so
+|   |-- libjnigraphics.so
+|   |-- libjni_jpegstream.so
+|   |-- libjni_jpegutil.so
+|   |-- libjni_latinime.so
+|   |-- libjni_pacprocessor.so
+|   |-- libjni_tinyplanet.so
+|   |-- libjpeg.so
+|   |-- libkeymaster1.so
+|   |-- libkeymaster_messages.so
+|   |-- libkeystore_binder.so
+|   |-- libkeystore-engine.so
+|   |-- libLLVM.so
+|   |-- liblog.so
+|   |-- liblogwrap.so
+|   |-- libmdnssd.so
+|   |-- libmedia_jni.so
+|   |-- libmedialogservice.so
+|   |-- libmediandk.so
+|   |-- libmediaplayerservice.so
+|   |-- libmedia.so
+|   |-- libmediautils.so
+|   |-- libmemtrack.so
+|   |-- libminikin.so
+|   |-- libm.so
+|   |-- libmtp.so
+|   |-- libnativebridge.so
+|   |-- libnativehelper.so
+|   |-- libnbaio.so
+|   |-- libnetd_client.so
+|   |-- libnetlink.so
+|   |-- libnetutils.so
+|   |-- libnfc_ndef.so
+|   |-- libnl.so
+|   |-- libOpenglSystemCommon.so
+|   |-- libOpenMAXAL.so
+|   |-- libOpenSLES.so
+|   |-- libopus.so
+|   |-- libpac.so
+|   |-- libpagemap.so
+|   |-- libpcre.so
+|   |-- libpdfium.so
+|   |-- libpixelflinger.so
+|   |-- libpng.so
+|   |-- libpowermanager.so
+|   |-- libpower.so
+|   |-- libprintspooler_jni.so
+|   |-- libprocessgroup.so
+|   |-- libprotobuf-cpp-lite.so
+|   |-- libradio_metadata.so
+|   |-- libradioservice.so
+|   |-- libradio.so
+|   |-- libreference-ril.so
+|   |-- lib_renderControl_enc.so
+|   |-- libresourcemanagerservice.so
+|   |-- libril.so
+|   |-- librilutils.so
+|   |-- libRScpp.so
+|   |-- libRSCpuRef.so
+|   |-- libRSDriver.so
+|   |-- librs_jni.so
+|   |-- librsjni.so
+|   |-- libRS.so
+|   |-- libRSSupport.so
+|   |-- librtp_jni.so
+|   |-- libselinux.so
+|   |-- libsensorservice.so
+|   |-- libserviceutility.so
+|   |-- libsigchain.so
+|   |-- libskia.so
+|   |-- libsoftkeymasterdevice.so
+|   |-- libsoftkeymaster.so
+|   |-- libsonic.so
+|   |-- libsonivox.so
+|   |-- libsoundpool.so
+|   |-- libsoundtriggerservice.so
+|   |-- libsoundtrigger.so
+|   |-- libsparse.so
+|   |-- libspeexresampler.so
+|   |-- libsqlite_jni.so
+|   |-- libsqlite.so
+|   |-- libssl.so
+|   |-- libstagefright_amrnb_common.so
+|   |-- libstagefright_avc_common.so
+|   |-- libstagefright_enc_common.so
+|   |-- libstagefright_foundation.so
+|   |-- libstagefright_httplive.so
+|   |-- libstagefright_http_support.so
+|   |-- libstagefright_omx.so
+|   |-- libstagefright.so
+|   |-- libstagefright_soft_aacdec.so
+|   |-- libstagefright_soft_aacenc.so
+|   |-- libstagefright_soft_amrdec.so
+|   |-- libstagefright_soft_amrnbenc.so
+|   |-- libstagefright_soft_amrwbenc.so
+|   |-- libstagefright_soft_avcdec.so
+|   |-- libstagefright_soft_avcenc.so
+|   |-- libstagefright_soft_flacenc.so
+|   |-- libstagefright_soft_g711dec.so
+|   |-- libstagefright_soft_gsmdec.so
+|   |-- libstagefright_soft_hevcdec.so
+|   |-- libstagefright_soft_mp3dec.so
+|   |-- libstagefright_soft_mpeg2dec.so
+|   |-- libstagefright_soft_mpeg4dec.so
+|   |-- libstagefright_soft_mpeg4enc.so
+|   |-- libstagefright_soft_opusdec.so
+|   |-- libstagefright_soft_rawdec.so
+|   |-- libstagefright_soft_vorbisdec.so
+|   |-- libstagefright_soft_vpxdec.so
+|   |-- libstagefright_soft_vpxenc.so
+|   |-- libstagefright_wfd.so
+|   |-- libstagefright_yuv.so
+|   |-- libstdc++.so
+|   |-- libsurfaceflinger_ddmconnection.so
+|   |-- libsurfaceflinger.so
+|   |-- libsuspend.so
+|   |-- libsync.so
+|   |-- libsysutils.so
+|   |-- libtinyalsa.so
+|   |-- libttscompat.so
+|   |-- libttspico.so
+|   |-- libui.so
+|   |-- libunwind.so
+|   |-- libusbhost.so
+|   |-- libutils.so
+|   |-- libvixl.so
+|   |-- libvorbisidec.so
+|   |-- libwebrtc_audio_preprocessing.so
+|   |-- libwebviewchromium_loader.so
+|   |-- libwebviewchromium_plat_support.so
+|   |-- libwifi-service.so
+|   |-- libwilhelm.so
+|   |-- libwnndict.so
+|   |-- libWnnEngDic.so
+|   |-- libWnnJpnDic.so
+|   |-- libz.so
+|   `-- soundfx
+|       |-- libaudiopreprocessing.so
+|       |-- libbundlewrapper.so
+|       |-- libdownmix.so
+|       |-- libeffectproxy.so
+|       |-- libldnhncr.so
+|       |-- libreverbwrapper.so
+|       `-- libvisualizer.so
+|-- media
+|   `-- audio
+|       |-- alarms
+|       |   |-- Alarm_Beep_01.ogg
+|       |   |-- Alarm_Beep_02.ogg
+|       |   |-- Alarm_Beep_03.ogg
+|       |   |-- Alarm_Buzzer.ogg
+|       |   |-- Alarm_Classic.ogg
+|       |   |-- Alarm_Rooster_02.ogg
+|       |   |-- Argon.ogg
+|       |   |-- Barium.ogg
+|       |   |-- Carbon.ogg
+|       |   |-- Cesium.ogg
+|       |   |-- Fermium.ogg
+|       |   |-- Hassium.ogg
+|       |   |-- Helium.ogg
+|       |   |-- Krypton.ogg
+|       |   |-- Neon.ogg
+|       |   |-- Neptunium.ogg
+|       |   |-- Nobelium.ogg
+|       |   |-- Osmium.ogg
+|       |   |-- Oxygen.ogg
+|       |   |-- Platinum.ogg
+|       |   |-- Plutonium.ogg
+|       |   |-- Promethium.ogg
+|       |   `-- Scandium.ogg
+|       |-- notifications
+|       |   |-- Adara.ogg
+|       |   |-- Aldebaran.ogg
+|       |   |-- Altair.ogg
+|       |   |-- Alya.ogg
+|       |   |-- Antares.ogg
+|       |   |-- Antimony.ogg
+|       |   |-- arcturus.ogg
+|       |   |-- Arcturus.ogg
+|       |   |-- Argon.ogg
+|       |   |-- Beat_Box_Android.ogg
+|       |   |-- Bellatrix.ogg
+|       |   |-- Beryllium.ogg
+|       |   |-- Betelgeuse.ogg
+|       |   |-- CaffeineSnake.ogg
+|       |   |-- Canopus.ogg
+|       |   |-- Capella.ogg
+|       |   |-- Castor.ogg
+|       |   |-- CetiAlpha.ogg
+|       |   |-- Cobalt.ogg
+|       |   |-- Cricket.ogg
+|       |   |-- DearDeer.ogg
+|       |   |-- Deneb.ogg
+|       |   |-- Doink.ogg
+|       |   |-- DontPanic.ogg
+|       |   |-- Drip.ogg
+|       |   |-- Electra.ogg
+|       |   |-- F1_MissedCall.ogg
+|       |   |-- F1_New_MMS.ogg
+|       |   |-- F1_New_SMS.ogg
+|       |   |-- Fluorine.ogg
+|       |   |-- Fomalhaut.ogg
+|       |   |-- Gallium.ogg
+|       |   |-- Heaven.ogg
+|       |   |-- Helium.ogg
+|       |   |-- Highwire.ogg
+|       |   |-- Hojus.ogg
+|       |   |-- Iridium.ogg
+|       |   |-- Krypton.ogg
+|       |   |-- KzurbSonar.ogg
+|       |   |-- Lalande.ogg
+|       |   |-- Merope.ogg
+|       |   |-- Mira.ogg
+|       |   |-- moonbeam.ogg
+|       |   |-- OnTheHunt.ogg
+|       |   |-- Palladium.ogg
+|       |   |-- pixiedust.ogg
+|       |   |-- pizzicato.ogg
+|       |   |-- Plastic_Pipe.ogg
+|       |   |-- Polaris.ogg
+|       |   |-- Pollux.ogg
+|       |   |-- Procyon.ogg
+|       |   |-- Proxima.ogg
+|       |   |-- Radon.ogg
+|       |   |-- regulus.ogg
+|       |   |-- Rubidium.ogg
+|       |   |-- Selenium.ogg
+|       |   |-- Shaula.ogg
+|       |   |-- sirius.ogg
+|       |   |-- Sirrah.ogg
+|       |   |-- SpaceSeed.ogg
+|       |   |-- Spica.ogg
+|       |   |-- Strontium.ogg
+|       |   |-- Syrma.ogg
+|       |   |-- TaDa.ogg
+|       |   |-- Talitha.ogg
+|       |   |-- Tejat.ogg
+|       |   |-- Thallium.ogg
+|       |   |-- Tinkerbell.ogg
+|       |   |-- tweeters.ogg
+|       |   |-- Upsilon.ogg
+|       |   |-- vega.ogg
+|       |   |-- Vega.ogg
+|       |   |-- Voila.ogg
+|       |   |-- Xenon.ogg
+|       |   `-- Zirconium.ogg
+|       |-- ringtones
+|       |   |-- Andromeda.ogg
+|       |   |-- ANDROMEDA.ogg
+|       |   |-- Aquila.ogg
+|       |   |-- ArgoNavis.ogg
+|       |   |-- Atria.ogg
+|       |   |-- Backroad.ogg
+|       |   |-- BeatPlucker.ogg
+|       |   |-- BentleyDubs.ogg
+|       |   |-- Big_Easy.ogg
+|       |   |-- BirdLoop.ogg
+|       |   |-- Bollywood.ogg
+|       |   |-- BOOTES.ogg
+|       |   |-- BussaMove.ogg
+|       |   |-- Cairo.ogg
+|       |   |-- Calypso_Steel.ogg
+|       |   |-- CanisMajor.ogg
+|       |   |-- CANISMAJOR.ogg
+|       |   |-- CaribbeanIce.ogg
+|       |   |-- Carina.ogg
+|       |   |-- CASSIOPEIA.ogg
+|       |   |-- Centaurus.ogg
+|       |   |-- Champagne_Edition.ogg
+|       |   |-- Club_Cubano.ogg
+|       |   |-- CrayonRock.ogg
+|       |   |-- CrazyDream.ogg
+|       |   |-- CurveBall.ogg
+|       |   |-- Cygnus.ogg
+|       |   |-- DancinFool.ogg
+|       |   |-- Ding.ogg
+|       |   |-- DonMessWivIt.ogg
+|       |   |-- Draco.ogg
+|       |   |-- DreamTheme.ogg
+|       |   |-- Eastern_Sky.ogg
+|       |   |-- Enter_the_Nexus.ogg
+|       |   |-- Eridani.ogg
+|       |   |-- EtherShake.ogg
+|       |   |-- FreeFlight.ogg
+|       |   |-- FriendlyGhost.ogg
+|       |   |-- Funk_Yall.ogg
+|       |   |-- GameOverGuitar.ogg
+|       |   |-- Gimme_Mo_Town.ogg
+|       |   |-- Girtab.ogg
+|       |   |-- Glacial_Groove.ogg
+|       |   |-- Growl.ogg
+|       |   |-- HalfwayHome.ogg
+|       |   |-- hydra.ogg
+|       |   |-- Hydra.ogg
+|       |   |-- InsertCoin.ogg
+|       |   |-- Kuma.ogg
+|       |   |-- LoopyLounge.ogg
+|       |   |-- LoveFlute.ogg
+|       |   |-- Lyra.ogg
+|       |   |-- Machina.ogg
+|       |   |-- MidEvilJaunt.ogg
+|       |   |-- MildlyAlarming.ogg
+|       |   |-- Nairobi.ogg
+|       |   |-- Nassau.ogg
+|       |   |-- NewPlayer.ogg
+|       |   |-- Noises1.ogg
+|       |   |-- Noises2.ogg
+|       |   |-- Noises3.ogg
+|       |   |-- No_Limits.ogg
+|       |   |-- OrganDub.ogg
+|       |   |-- Orion.ogg
+|       |   |-- Paradise_Island.ogg
+|       |   |-- Pegasus.ogg
+|       |   |-- Perseus.ogg
+|       |   |-- PERSEUS.ogg
+|       |   |-- Playa.ogg
+|       |   |-- Pyxis.ogg
+|       |   |-- Rasalas.ogg
+|       |   |-- Revelation.ogg
+|       |   |-- Rigel.ogg
+|       |   |-- Ring_Classic_02.ogg
+|       |   |-- Ring_Digital_02.ogg
+|       |   |-- Ring_Synth_02.ogg
+|       |   |-- Ring_Synth_04.ogg
+|       |   |-- Road_Trip.ogg
+|       |   |-- RomancingTheTone.ogg
+|       |   |-- Safari.ogg
+|       |   |-- Savannah.ogg
+|       |   |-- Scarabaeus.ogg
+|       |   |-- Sceptrum.ogg
+|       |   |-- Seville.ogg
+|       |   |-- Shes_All_That.ogg
+|       |   |-- SilkyWay.ogg
+|       |   |-- SitarVsSitar.ogg
+|       |   |-- Solarium.ogg
+|       |   |-- SpringyJalopy.ogg
+|       |   |-- Steppin_Out.ogg
+|       |   |-- Terminated.ogg
+|       |   |-- Testudo.ogg
+|       |   |-- Themos.ogg
+|       |   |-- Third_Eye.ogg
+|       |   |-- Thunderfoot.ogg
+|       |   |-- TwirlAway.ogg
+|       |   |-- UrsaMinor.ogg
+|       |   |-- URSAMINOR.ogg
+|       |   |-- VeryAlarmed.ogg
+|       |   |-- Vespa.ogg
+|       |   |-- World.ogg
+|       |   `-- Zeta.ogg
+|       `-- ui
+|           |-- camera_click.ogg
+|           |-- camera_focus.ogg
+|           |-- Dock.ogg
+|           |-- Effect_Tick.ogg
+|           |-- KeypressDelete.ogg
+|           |-- KeypressInvalid.ogg
+|           |-- KeypressReturn.ogg
+|           |-- KeypressSpacebar.ogg
+|           |-- KeypressStandard.ogg
+|           |-- Lock.ogg
+|           |-- LowBattery.ogg
+|           |-- Trusted.ogg
+|           |-- Undock.ogg
+|           |-- Unlock.ogg
+|           |-- VideoRecord.ogg
+|           `-- WirelessChargingStarted.ogg
+|-- priv-app
+|   |-- BackupRestoreConfirmation
+|   |   |-- BackupRestoreConfirmation.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- BackupRestoreConfirmation.odex
+|   |-- CalendarProvider
+|   |   |-- CalendarProvider.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- CalendarProvider.odex
+|   |-- CallLogBackup
+|   |   |-- CallLogBackup.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- CallLogBackup.odex
+|   |-- CarrierConfig
+|   |   |-- CarrierConfig.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- CarrierConfig.odex
+|   |-- Contacts
+|   |   |-- Contacts.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Contacts.odex
+|   |-- ContactsProvider
+|   |   |-- ContactsProvider.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- ContactsProvider.odex
+|   |-- DefaultContainerService
+|   |   |-- DefaultContainerService.apk
+|   |   |-- lib
+|   |   |   `-- arm
+|   |   |       `-- libdefcontainer_jni.so -> /system/lib/libdefcontainer_jni.so
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- DefaultContainerService.odex
+|   |-- Dialer
+|   |   |-- Dialer.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Dialer.odex
+|   |-- DownloadProvider
+|   |   |-- DownloadProvider.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- DownloadProvider.odex
+|   |-- ExternalStorageProvider
+|   |   |-- ExternalStorageProvider.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- ExternalStorageProvider.odex
+|   |-- FusedLocation
+|   |   |-- FusedLocation.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- FusedLocation.odex
+|   |-- InputDevices
+|   |   |-- InputDevices.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- InputDevices.odex
+|   |-- Launcher2
+|   |   |-- Launcher2.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- Launcher2.odex
+|   |-- ManagedProvisioning
+|   |   |-- ManagedProvisioning.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- ManagedProvisioning.odex
+|   |-- MediaProvider
+|   |   |-- MediaProvider.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- MediaProvider.odex
+|   |-- MmsService
+|   |   |-- MmsService.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- MmsService.odex
+|   |-- MusicFX
+|   |   |-- MusicFX.apk
+|   |   `-- oat
+|   |       `-- arm
+|   |           `-- MusicFX.odex
+|   |-- OneTimeInitializer
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- OneTimeInitializer.odex
+|   |   `-- OneTimeInitializer.apk
+|   |-- PackageInstaller
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- PackageInstaller.odex
+|   |   `-- PackageInstaller.apk
+|   |-- ProxyHandler
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- ProxyHandler.odex
+|   |   `-- ProxyHandler.apk
+|   |-- Settings
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- Settings.odex
+|   |   `-- Settings.apk
+|   |-- SettingsProvider
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- SettingsProvider.odex
+|   |   `-- SettingsProvider.apk
+|   |-- SharedStorageBackup
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- SharedStorageBackup.odex
+|   |   `-- SharedStorageBackup.apk
+|   |-- Shell
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- Shell.odex
+|   |   `-- Shell.apk
+|   |-- StatementService
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- StatementService.odex
+|   |   `-- StatementService.apk
+|   |-- SystemUI
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- SystemUI.odex
+|   |   `-- SystemUI.apk
+|   |-- Telecom
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- Telecom.odex
+|   |   `-- Telecom.apk
+|   |-- TelephonyProvider
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- TelephonyProvider.odex
+|   |   `-- TelephonyProvider.apk
+|   |-- TeleService
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- TeleService.odex
+|   |   `-- TeleService.apk
+|   |-- VpnDialogs
+|   |   |-- oat
+|   |   |   `-- arm
+|   |   |       `-- VpnDialogs.odex
+|   |   `-- VpnDialogs.apk
+|   `-- WallpaperCropper
+|       |-- oat
+|       |   `-- arm
+|       |       `-- WallpaperCropper.odex
+|       `-- WallpaperCropper.apk
+|-- tts
+|   `-- lang_pico
+|       |-- de-DE_gl0_sg.bin
+|       |-- de-DE_ta.bin
+|       |-- en-GB_kh0_sg.bin
+|       |-- en-GB_ta.bin
+|       |-- en-US_lh0_sg.bin
+|       |-- en-US_ta.bin
+|       |-- es-ES_ta.bin
+|       |-- es-ES_zl0_sg.bin
+|       |-- fr-FR_nk0_sg.bin
+|       |-- fr-FR_ta.bin
+|       |-- it-IT_cm0_sg.bin
+|       `-- it-IT_ta.bin
+|-- usr
+|   |-- hyphen-data
+|   |   |-- hyph-en-us.hyb
+|   |   |-- hyph-en-us.lic.txt
+|   |   |-- hyph-eu.hyb
+|   |   |-- hyph-eu.lic.txt
+|   |   |-- hyph-hu.hyb
+|   |   |-- hyph-hu.lic.txt
+|   |   |-- hyph-hy.hyb
+|   |   |-- hyph-hy.lic.txt
+|   |   |-- hyph-nb.hyb
+|   |   |-- hyph-nb.lic.txt
+|   |   |-- hyph-nn.hyb
+|   |   |-- hyph-nn.lic.txt
+|   |   |-- hyph-und-ethi.hyb
+|   |   `-- hyph-und-ethi.lic.txt
+|   |-- icu
+|   |   `-- icudt55l.dat
+|   |-- idc
+|   |   |-- AVRCP.idc
+|   |   |-- qwerty2.idc
+|   |   |-- qwerty.idc
+|   |   `-- Vendor_18d1_Product_5018_Version_0102.idc
+|   |-- keychars
+|   |   |-- Generic.kcm
+|   |   |-- qwerty2.kcm
+|   |   |-- qwerty.kcm
+|   |   |-- Vendor_18d1_Product_5018.kcm
+|   |   `-- Virtual.kcm
+|   |-- keylayout
+|   |   |-- AVRCP.kl
+|   |   |-- Generic.kl
+|   |   |-- qwerty.kl
+|   |   |-- Vendor_0079_Product_0011.kl
+|   |   |-- Vendor_045e_Product_028e.kl
+|   |   |-- Vendor_046d_Product_b501.kl
+|   |   |-- Vendor_046d_Product_c216.kl
+|   |   |-- Vendor_046d_Product_c219.kl
+|   |   |-- Vendor_046d_Product_c21d.kl
+|   |   |-- Vendor_046d_Product_c21f.kl
+|   |   |-- Vendor_046d_Product_c294.kl
+|   |   |-- Vendor_046d_Product_c299.kl
+|   |   |-- Vendor_046d_Product_c532.kl
+|   |   |-- Vendor_054c_Product_0268.kl
+|   |   |-- Vendor_0583_Product_2060.kl
+|   |   |-- Vendor_05ac_Product_0239.kl
+|   |   |-- Vendor_0b05_Product_4500.kl
+|   |   |-- Vendor_1038_Product_1412.kl
+|   |   |-- Vendor_12bd_Product_d015.kl
+|   |   |-- Vendor_1532_Product_0900.kl
+|   |   |-- Vendor_1689_Product_fd00.kl
+|   |   |-- Vendor_1689_Product_fd01.kl
+|   |   |-- Vendor_1689_Product_fe00.kl
+|   |   |-- Vendor_18d1_Product_2c40.kl
+|   |   |-- Vendor_18d1_Product_5018.kl
+|   |   |-- Vendor_1949_Product_0401.kl
+|   |   |-- Vendor_1bad_Product_f016.kl
+|   |   |-- Vendor_1bad_Product_f023.kl
+|   |   |-- Vendor_1bad_Product_f027.kl
+|   |   |-- Vendor_1bad_Product_f036.kl
+|   |   |-- Vendor_1d79_Product_0009.kl
+|   |   |-- Vendor_22b8_Product_093d.kl
+|   |   |-- Vendor_2378_Product_1008.kl
+|   |   `-- Vendor_2378_Product_100a.kl
+|   `-- share
+|       |-- bmd
+|       |   |-- RFFspeed_501.bmd
+|       |   `-- RFFstd_501.bmd
+|       `-- zoneinfo
+|           `-- tzdata
+|-- vendor
+|   `-- lib
+|       `-- mediadrm
+|           `-- libdrmclearkeyplugin.so
+`-- xbin
+    |-- add-property-tag
+    |-- check-lost+found
+    |-- cpueater
+    |-- cpustats
+    |-- daemonize
+    |-- dexdump
+    |-- directiotest
+    |-- fio
+    |-- kexecload
+    |-- ksminfo
+    |-- latencytop
+    |-- librank
+    |-- ltrace
+    |-- micro_bench
+    |-- micro_bench_static
+    |-- nc
+    |-- netperf
+    |-- netserver
+    |-- perfprofd
+    |-- procmem
+    |-- procrank
+    |-- puncture_fs
+    |-- rawbu
+    |-- sane_schedstat
+    |-- showmap
+    |-- showslab
+    |-- simpleperf
+    |-- sqlite3
+    |-- strace
+    |-- su
+    |-- taskstats
+    |-- tcpdump
+    `-- timeinfo
+
+267 directories, 1405 files

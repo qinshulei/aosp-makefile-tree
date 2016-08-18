@@ -1,64 +1,40 @@
 abi/cpp libgabi++
-abi/cpp libgabi++
 art cpplint-art-phony
-art/compiler libart-compiler
 art/compiler libart-compiler
 art/compiler libart-compiler_32
 art/compiler libartd-compiler
-art/compiler libartd-compiler
 art/compiler libartd-compiler_32
-art/dalvikvm dalvikvm
 art/dalvikvm dalvikvm
 art/dalvikvm dalvikvm_32
 art/dex2oat dex2oat
-art/dex2oat dex2oat
 art/dex2oat dex2oat_32
-art/dex2oat dex2oatd
 art/dex2oat dex2oatd
 art/dex2oat dex2oatd_32
 art/disassembler libart-disassembler
-art/disassembler libart-disassembler
 art/disassembler libart-disassembler_32
-art/disassembler libartd-disassembler
 art/disassembler libartd-disassembler
 art/disassembler libartd-disassembler_32
 art/imgdiag imgdiag
-art/imgdiag imgdiag
 art/imgdiag imgdiag_32
-art/imgdiag imgdiagd
 art/imgdiag imgdiagd
 art/imgdiag imgdiagd_32
 art/oatdump oatdump
-art/oatdump oatdump
-art/oatdump oatdumpd
 art/oatdump oatdumpd
 art/patchoat patchoat
-art/patchoat patchoat
 art/patchoat patchoatd
-art/patchoat patchoatd
-art/runtime libart
 art/runtime libart
 art/runtime libart_32
 art/runtime libartd
-art/runtime libartd
 art/runtime libartd_32
 art/sigchainlib art/sigchainlib libsigchain
-art/sigchainlib art/sigchainlib libsigchain
-art/sigchainlib art/sigchainlib libsigchain
-art/sigchainlib art/sigchainlib libsigchain
-art/sigchainlib libsigchain_32
 art/sigchainlib libsigchain_32
 art/tools art
-art/tools art
-art/tools/dexfuzz dexfuzz
 art/tools/dexfuzz dexfuzz
 bionic/benchmarks bionic-benchmarks
 bionic/benchmarks bionic-benchmarks-glibc
 bionic/benchmarks bionic-benchmarks-glibc_32
 bionic/benchmarks libbenchmark
-bionic/benchmarks libbenchmark
 bionic/benchmarks libbenchmark_32
-bionic/libc libc
 bionic/libc libc
 bionic/libc libc_aeabi
 bionic/libc libc_bionic
@@ -82,12 +58,9 @@ bionic/libc libc_syscalls
 bionic/libc libc_thread_atexit_impl
 bionic/libc libc_tzcode
 bionic/libc libstdc++
-bionic/libc libstdc++
 bionic/libc/zoneinfo tzdata
 bionic/libc/zoneinfo tzdata-host
 bionic/libdl libdl
-bionic/libdl libdl
-bionic/libm libm
 bionic/libm libm
 bionic/linker linker
 bionic/linker/tests linker-unit-tests
@@ -98,227 +71,154 @@ bionic/tests bionic-unit-tests-glibc
 bionic/tests bionic-unit-tests-glibc_32
 bionic/tests bionic-unit-tests-static
 bionic/tests fortify1-tests-clang
-bionic/tests fortify1-tests-clang
 bionic/tests fortify1-tests-clang_32
-bionic/tests fortify1-tests-gcc
 bionic/tests fortify1-tests-gcc
 bionic/tests fortify1-tests-gcc_32
 bionic/tests fortify2-tests-clang
-bionic/tests fortify2-tests-clang
 bionic/tests fortify2-tests-clang_32
-bionic/tests fortify2-tests-gcc
 bionic/tests fortify2-tests-gcc
 bionic/tests fortify2-tests-gcc_32
 bionic/tests libBionicCtsGtestMain
-bionic/tests libBionicCtsGtestMain
 bionic/tests libBionicCtsGtestMain_32
-bionic/tests libBionicGtestMain
 bionic/tests libBionicGtestMain
 bionic/tests libBionicGtestMain_32
 bionic/tests libBionicStandardTests
-bionic/tests libBionicStandardTests
 bionic/tests libBionicStandardTests_32
-bionic/tests libBionicTests
 bionic/tests libBionicTests
 bionic/tests libBionicTests_32
 bionic/tests/libs libdl_preempt_test_1
-bionic/tests/libs libdl_preempt_test_1
 bionic/tests/libs libdl_preempt_test_1_32
-bionic/tests/libs libdl_preempt_test_2
 bionic/tests/libs libdl_preempt_test_2
 bionic/tests/libs libdl_preempt_test_2_32
 bionic/tests/libs libdl_test_df_1_global
-bionic/tests/libs libdl_test_df_1_global
 bionic/tests/libs libdl_test_df_1_global_32
 bionic/tests/libs libdlext_test
-bionic/tests/libs libdlext_test
 bionic/tests/libs libdlext_test_32
-bionic/tests/libs libdlext_test_different_soname
 bionic/tests/libs libdlext_test_different_soname
 bionic/tests/libs libdlext_test_different_soname_32
 bionic/tests/libs libdlext_test_fd
 bionic/tests/libs libdlext_test_fd_zipaligned
 bionic/tests/libs libdlext_test_norelro
 bionic/tests/libs libgnu-hash-table-library
-bionic/tests/libs libgnu-hash-table-library
 bionic/tests/libs libgnu-hash-table-library_32
-bionic/tests/libs libsysv-hash-table-library
 bionic/tests/libs libsysv-hash-table-library
 bionic/tests/libs libsysv-hash-table-library_32
 bionic/tests/libs libtest_atexit
-bionic/tests/libs libtest_atexit
 bionic/tests/libs libtest_atexit_32
 bionic/tests/libs libtest_check_order_dlsym
-bionic/tests/libs libtest_check_order_dlsym
-bionic/tests/libs libtest_check_order_dlsym_1_left
 bionic/tests/libs libtest_check_order_dlsym_1_left
 bionic/tests/libs libtest_check_order_dlsym_1_left_32
-bionic/tests/libs libtest_check_order_dlsym_2_right
 bionic/tests/libs libtest_check_order_dlsym_2_right
 bionic/tests/libs libtest_check_order_dlsym_2_right_32
 bionic/tests/libs libtest_check_order_dlsym_32
 bionic/tests/libs libtest_check_order_dlsym_3_c
-bionic/tests/libs libtest_check_order_dlsym_3_c
 bionic/tests/libs libtest_check_order_dlsym_3_c_32
-bionic/tests/libs libtest_check_order_dlsym_a
 bionic/tests/libs libtest_check_order_dlsym_a
 bionic/tests/libs libtest_check_order_dlsym_a_32
 bionic/tests/libs libtest_check_order_dlsym_b
-bionic/tests/libs libtest_check_order_dlsym_b
 bionic/tests/libs libtest_check_order_dlsym_b_32
-bionic/tests/libs libtest_check_order_dlsym_d
 bionic/tests/libs libtest_check_order_dlsym_d
 bionic/tests/libs libtest_check_order_dlsym_d_32
 bionic/tests/libs libtest_check_order_reloc_root
-bionic/tests/libs libtest_check_order_reloc_root
-bionic/tests/libs libtest_check_order_reloc_root_1
 bionic/tests/libs libtest_check_order_reloc_root_1
 bionic/tests/libs libtest_check_order_reloc_root_1_32
-bionic/tests/libs libtest_check_order_reloc_root_2
 bionic/tests/libs libtest_check_order_reloc_root_2
 bionic/tests/libs libtest_check_order_reloc_root_2_32
 bionic/tests/libs libtest_check_order_reloc_root_32
 bionic/tests/libs libtest_check_order_reloc_siblings
-bionic/tests/libs libtest_check_order_reloc_siblings
-bionic/tests/libs libtest_check_order_reloc_siblings_1
 bionic/tests/libs libtest_check_order_reloc_siblings_1
 bionic/tests/libs libtest_check_order_reloc_siblings_1_32
 bionic/tests/libs libtest_check_order_reloc_siblings_2
-bionic/tests/libs libtest_check_order_reloc_siblings_2
 bionic/tests/libs libtest_check_order_reloc_siblings_2_32
-bionic/tests/libs libtest_check_order_reloc_siblings_3
 bionic/tests/libs libtest_check_order_reloc_siblings_3
 bionic/tests/libs libtest_check_order_reloc_siblings_32
 bionic/tests/libs libtest_check_order_reloc_siblings_3_32
 bionic/tests/libs libtest_check_order_reloc_siblings_a
-bionic/tests/libs libtest_check_order_reloc_siblings_a
 bionic/tests/libs libtest_check_order_reloc_siblings_a_32
-bionic/tests/libs libtest_check_order_reloc_siblings_b
 bionic/tests/libs libtest_check_order_reloc_siblings_b
 bionic/tests/libs libtest_check_order_reloc_siblings_b_32
 bionic/tests/libs libtest_check_order_reloc_siblings_c
-bionic/tests/libs libtest_check_order_reloc_siblings_c
-bionic/tests/libs libtest_check_order_reloc_siblings_c_1
 bionic/tests/libs libtest_check_order_reloc_siblings_c_1
 bionic/tests/libs libtest_check_order_reloc_siblings_c_1_32
-bionic/tests/libs libtest_check_order_reloc_siblings_c_2
 bionic/tests/libs libtest_check_order_reloc_siblings_c_2
 bionic/tests/libs libtest_check_order_reloc_siblings_c_2_32
 bionic/tests/libs libtest_check_order_reloc_siblings_c_32
 bionic/tests/libs libtest_check_order_reloc_siblings_d
-bionic/tests/libs libtest_check_order_reloc_siblings_d
 bionic/tests/libs libtest_check_order_reloc_siblings_d_32
-bionic/tests/libs libtest_check_order_reloc_siblings_e
 bionic/tests/libs libtest_check_order_reloc_siblings_e
 bionic/tests/libs libtest_check_order_reloc_siblings_e_32
 bionic/tests/libs libtest_check_order_reloc_siblings_f
-bionic/tests/libs libtest_check_order_reloc_siblings_f
 bionic/tests/libs libtest_check_order_reloc_siblings_f_32
-bionic/tests/libs libtest_dlopen_from_ctor
 bionic/tests/libs libtest_dlopen_from_ctor
 bionic/tests/libs libtest_dlopen_from_ctor_32
 bionic/tests/libs libtest_dlopen_from_ctor_main
-bionic/tests/libs libtest_dlopen_from_ctor_main
 bionic/tests/libs libtest_dlopen_from_ctor_main_32
-bionic/tests/libs libtest_dlopen_weak_undefined_func
 bionic/tests/libs libtest_dlopen_weak_undefined_func
 bionic/tests/libs libtest_dlopen_weak_undefined_func_32
 bionic/tests/libs libtest_dlsym_df_1_global
-bionic/tests/libs libtest_dlsym_df_1_global
 bionic/tests/libs libtest_dlsym_df_1_global_32
-bionic/tests/libs libtest_dlsym_from_this
 bionic/tests/libs libtest_dlsym_from_this
 bionic/tests/libs libtest_dlsym_from_this_32
 bionic/tests/libs libtest_dlsym_from_this_child
-bionic/tests/libs libtest_dlsym_from_this_child
 bionic/tests/libs libtest_dlsym_from_this_child_32
-bionic/tests/libs libtest_dlsym_from_this_grandchild
 bionic/tests/libs libtest_dlsym_from_this_grandchild
 bionic/tests/libs libtest_dlsym_from_this_grandchild_32
 bionic/tests/libs libtest_dlsym_weak_func
-bionic/tests/libs libtest_dlsym_weak_func
 bionic/tests/libs libtest_dlsym_weak_func_32
-bionic/tests/libs libtest_empty
 bionic/tests/libs libtest_empty
 bionic/tests/libs libtest_empty_32
 bionic/tests/libs libtest_ifunc
 bionic/tests/libs libtest_ifunc_32
 bionic/tests/libs libtest_nodelete_1
-bionic/tests/libs libtest_nodelete_1
 bionic/tests/libs libtest_nodelete_1_32
-bionic/tests/libs libtest_nodelete_2
 bionic/tests/libs libtest_nodelete_2
 bionic/tests/libs libtest_nodelete_2_32
 bionic/tests/libs libtest_nodelete_dt_flags_1
-bionic/tests/libs libtest_nodelete_dt_flags_1
 bionic/tests/libs libtest_nodelete_dt_flags_1_32
-bionic/tests/libs libtest_pthread_atfork
 bionic/tests/libs libtest_pthread_atfork
 bionic/tests/libs libtest_pthread_atfork_32
 bionic/tests/libs libtest_relo_check_dt_needed_order
-bionic/tests/libs libtest_relo_check_dt_needed_order
-bionic/tests/libs libtest_relo_check_dt_needed_order_1
 bionic/tests/libs libtest_relo_check_dt_needed_order_1
 bionic/tests/libs libtest_relo_check_dt_needed_order_1_32
-bionic/tests/libs libtest_relo_check_dt_needed_order_2
 bionic/tests/libs libtest_relo_check_dt_needed_order_2
 bionic/tests/libs libtest_relo_check_dt_needed_order_2_32
 bionic/tests/libs libtest_relo_check_dt_needed_order_32
 bionic/tests/libs libtest_simple
-bionic/tests/libs libtest_simple
 bionic/tests/libs libtest_simple_32
-bionic/tests/libs libtest_two_parents_child
 bionic/tests/libs libtest_two_parents_child
 bionic/tests/libs libtest_two_parents_child_32
 bionic/tests/libs libtest_two_parents_parent1
-bionic/tests/libs libtest_two_parents_parent1
 bionic/tests/libs libtest_two_parents_parent1_32
-bionic/tests/libs libtest_two_parents_parent2
 bionic/tests/libs libtest_two_parents_parent2
 bionic/tests/libs libtest_two_parents_parent2_32
 bionic/tests/libs libtest_versioned_lib
-bionic/tests/libs libtest_versioned_lib
 bionic/tests/libs libtest_versioned_lib_32
-bionic/tests/libs libtest_versioned_libv1
 bionic/tests/libs libtest_versioned_libv1
 bionic/tests/libs libtest_versioned_libv1_32
 bionic/tests/libs libtest_versioned_libv2
-bionic/tests/libs libtest_versioned_libv2
 bionic/tests/libs libtest_versioned_libv2_32
-bionic/tests/libs libtest_versioned_otherlib
 bionic/tests/libs libtest_versioned_otherlib
 bionic/tests/libs libtest_versioned_otherlib_32
 bionic/tests/libs libtest_versioned_otherlib_empty
-bionic/tests/libs libtest_versioned_otherlib_empty
 bionic/tests/libs libtest_versioned_otherlib_empty_32
-bionic/tests/libs libtest_versioned_uselibv1
 bionic/tests/libs libtest_versioned_uselibv1
 bionic/tests/libs libtest_versioned_uselibv1_32
 bionic/tests/libs libtest_versioned_uselibv2
-bionic/tests/libs libtest_versioned_uselibv2
 bionic/tests/libs libtest_versioned_uselibv2_32
-bionic/tests/libs libtest_versioned_uselibv2_other
 bionic/tests/libs libtest_versioned_uselibv2_other
 bionic/tests/libs libtest_versioned_uselibv2_other_32
 bionic/tests/libs libtest_versioned_uselibv3_other
-bionic/tests/libs libtest_versioned_uselibv3_other
 bionic/tests/libs libtest_versioned_uselibv3_other_32
-bionic/tests/libs libtest_with_dependency
 bionic/tests/libs libtest_with_dependency
 bionic/tests/libs libtest_with_dependency_32
 bionic/tests/libs libtest_with_dependency_loop
-bionic/tests/libs libtest_with_dependency_loop
 bionic/tests/libs libtest_with_dependency_loop_32
-bionic/tests/libs libtest_with_dependency_loop_a
 bionic/tests/libs libtest_with_dependency_loop_a
 bionic/tests/libs libtest_with_dependency_loop_a_32
 bionic/tests/libs libtest_with_dependency_loop_b
-bionic/tests/libs libtest_with_dependency_loop_b
 bionic/tests/libs libtest_with_dependency_loop_b_32
 bionic/tests/libs libtest_with_dependency_loop_b_tmp
-bionic/tests/libs libtest_with_dependency_loop_b_tmp
 bionic/tests/libs libtest_with_dependency_loop_b_tmp_32
-bionic/tests/libs libtest_with_dependency_loop_c
 bionic/tests/libs libtest_with_dependency_loop_c
 bionic/tests/libs libtest_with_dependency_loop_c_32
 bionic/tools/relocation_packer elf_file_unittest_relocs_arm32.so
@@ -341,7 +241,6 @@ bootable/recovery/edify edify
 bootable/recovery/edify libedify
 bootable/recovery/minadbd libminadbd
 bootable/recovery/minadbd minadbd_test
-bootable/recovery/minui libminui
 bootable/recovery/minui libminui
 bootable/recovery/minzip libminzip
 bootable/recovery/mtdutils flash_image
@@ -678,21 +577,15 @@ cts/tests/tests/widget CtsWidgetTestCases
 cts/tests/uiautomator CtsUiAutomatorTests
 cts/tests/uiautomator/test-apps/CtsUiAutomatorApp CtsUiAutomatorApp
 cts/tools/cfassembler cfassembler
-cts/tools/cfassembler cfassembler
-cts/tools/cts-api-coverage cts/tools/cts-api-coverage/src cts-api-coverage
 cts/tools/cts-api-coverage cts/tools/cts-api-coverage/src cts-api-coverage
 cts/tools/cts-device-info CtsDeviceInfo
 cts/tools/cts-holo-generation CtsHoloGeneration
 cts/tools/cts-java-scanner cts/tools/cts-java-scanner/src cts-java-scanner
-cts/tools/cts-java-scanner cts/tools/cts-java-scanner/src cts-java-scanner
 cts/tools/cts-java-scanner-doclet cts-java-scanner-doclet
-cts/tools/cts-native-scanner cts/tools/cts-native-scanner/src cts-native-scanner
 cts/tools/cts-native-scanner cts/tools/cts-native-scanner/src cts-native-scanner
 cts/tools/cts-native-scanner/tests cts-native-scanner-tests
 cts/tools/cts-reference-app-lib android.cts.refapp
 cts/tools/cts-xml-generator cts/tools/cts-xml-generator/src cts-xml-generator
-cts/tools/cts-xml-generator cts/tools/cts-xml-generator/src cts-xml-generator
-cts/tools/dasm cts/tools/dasm/src dasm
 cts/tools/dasm cts/tools/dasm/src dasm
 cts/tools/device-setup/TestDeviceSetup TestDeviceSetup
 cts/tools/device-setup/TestDeviceSetup ctsdeviceinfolib
@@ -705,16 +598,13 @@ cts/tools/signature-tools sig-create
 cts/tools/signature-tools signature-tools
 cts/tools/signature-tools stringtemplate
 cts/tools/tradefed-host cts/tools/tradefed-host/etc cts-tradefed
-cts/tools/tradefed-host cts/tools/tradefed-host/etc cts-tradefed
 cts/tools/tradefed-host/tests cts-tradefed-tests
 cts/tools/utils descGen
 cts/tools/vm-tests-tf cts-tf-dalvik-buildutil
 cts/tools/vm-tests-tf cts-tf-dalvik-lib
 dalvik/dexdump dexdump
-dalvik/dexdump dexdump
 dalvik/dexgen dexgen
 dalvik/dexlist dexlist
-dalvik/dx dalvik/dx/src dx
 dalvik/dx dalvik/dx/src dx
 dalvik/dx dexmerger
 dalvik/dx jasmin
@@ -725,7 +615,6 @@ dalvik/dx shrinkedAndroid
 dalvik/dx/junit-tests dx-tests
 dalvik/libdex libdex
 dalvik/libdex libdex_32
-dalvik/tools/dexdeps dalvik/tools/dexdeps/src dexdeps
 dalvik/tools/dexdeps dalvik/tools/dexdeps/src dexdeps
 dalvik/tools/dmtracedump create_test_dmtrace
 dalvik/tools/dmtracedump dmtracedump
@@ -815,7 +704,6 @@ development/samples/training/NsdChat NsdChat
 development/testrunner coverage_targets.xml
 development/testrunner test_defs.xml
 development/tools/apkcheck development/tools/apkcheck/src apkcheck
-development/tools/apkcheck development/tools/apkcheck/src apkcheck
 development/tools/btsnooz btsnooz
 development/tools/emulator/test-apps/SmokeTests EmulatorSmokeTests
 development/tools/etc1tool etc1tool
@@ -824,7 +712,6 @@ development/tools/idegen idegen
 development/tools/line_endings line_endings
 development/tools/mkstubs mkstubs
 development/tools/recovery_l10n RecoveryLocalizer
-development/tools/rmtypedefs development/tools/rmtypedefs/src rmtypedefs
 development/tools/rmtypedefs development/tools/rmtypedefs/src rmtypedefs
 development/tools/yuv420sp2rgb yuv420sp2rgb
 development/tutorials/MoarRam MoarRam
@@ -902,7 +789,6 @@ external/boringssl libcrypto
 external/boringssl libcrypto-host
 external/boringssl libcrypto-host_32
 external/boringssl libcrypto_static
-external/boringssl libcrypto_static
 external/boringssl libcrypto_static_32
 external/boringssl libssl
 external/boringssl libssl-host
@@ -919,7 +805,6 @@ external/bouncycastle bouncycastle-unbundled
 external/bsdiff bsdiff
 external/bsdiff bspatch
 external/bzip2 libbz
-external/bzip2 libbz
 external/bzip2 libbz_32
 external/cblas libblas
 external/cblas libblasV8
@@ -927,71 +812,43 @@ external/ceres-solver libceres
 external/chromium-libpac libpac
 external/chromium-webview webview
 external/clang/lib/ARCMigrate libclangARCMigrate
-external/clang/lib/ARCMigrate libclangARCMigrate
-external/clang/lib/AST libclangAST
 external/clang/lib/AST libclangAST
 external/clang/lib/ASTMatchers libclangASTMatchers
-external/clang/lib/ASTMatchers libclangASTMatchers
-external/clang/lib/Analysis libclangAnalysis
 external/clang/lib/Analysis libclangAnalysis
 external/clang/lib/Basic libclangBasic
-external/clang/lib/Basic libclangBasic
-external/clang/lib/CodeGen libclangCodeGen
 external/clang/lib/CodeGen libclangCodeGen
 external/clang/lib/Driver libclangDriver
-external/clang/lib/Driver libclangDriver
-external/clang/lib/Edit libclangEdit
 external/clang/lib/Edit libclangEdit
 external/clang/lib/Format libclangFormat
-external/clang/lib/Format libclangFormat
 external/clang/lib/Frontend libclangFrontend
-external/clang/lib/Frontend libclangFrontend
-external/clang/lib/Frontend/Rewrite libclangRewriteFrontend
 external/clang/lib/Frontend/Rewrite libclangRewriteFrontend
 external/clang/lib/FrontendTool libclangFrontendTool
 external/clang/lib/Index libclangIndex
-external/clang/lib/Index libclangIndex
-external/clang/lib/Lex libclangLex
 external/clang/lib/Lex libclangLex
 external/clang/lib/Parse libclangParse
-external/clang/lib/Parse libclangParse
-external/clang/lib/Rewrite libclangRewrite
 external/clang/lib/Rewrite libclangRewrite
 external/clang/lib/Sema libclangSema
-external/clang/lib/Sema libclangSema
-external/clang/lib/Serialization libclangSerialization
 external/clang/lib/Serialization libclangSerialization
 external/clang/lib/StaticAnalyzer/Checkers libclangStaticAnalyzerCheckers
 external/clang/lib/StaticAnalyzer/Core libclangStaticAnalyzerCore
 external/clang/lib/StaticAnalyzer/Frontend libclangStaticAnalyzerFrontend
 external/clang/lib/Tooling libclangTooling
-external/clang/lib/Tooling libclangTooling
 external/clang/tools/driver clang
-external/clang/tools/libclang libclangLibclang
 external/clang/tools/libclang libclangLibclang
 external/clang/utils/TableGen clang-tblgen
 external/compiler-rt external/compiler-rt libcompiler_rt
-external/compiler-rt external/compiler-rt libcompiler_rt
-external/compiler-rt external/compiler-rt libcompiler_rt
-external/compiler-rt external/compiler-rt libcompiler_rt
-external/compiler-rt libcompiler_rt-extras
 external/compiler-rt libcompiler_rt-extras
 external/compiler-rt libcompiler_rt-extras_32
 external/compiler-rt libcompiler_rt_32
-external/compiler-rt libcompiler_rt_32
-external/compiler-rt libprofile_rt
 external/compiler-rt libprofile_rt
 external/compiler-rt libprofile_rt_32
-external/compiler-rt/lib/asan asan_test
 external/compiler-rt/lib/asan asan_test
 external/compiler-rt/lib/asan asan_test_32
 external/compiler-rt/lib/asan asanwrapper
 external/compiler-rt/lib/asan libasan
-external/compiler-rt/lib/asan libasan
 external/compiler-rt/lib/asan libasan_32
 external/compiler-rt/lib/asan libasan_cxx
 external/compiler-rt/lib/asan libasan_cxx_32
-external/compiler-rt/lib/asan libasan_noinst_test
 external/compiler-rt/lib/asan libasan_noinst_test
 external/compiler-rt/lib/asan libasan_noinst_test_32
 external/compiler-rt/lib/asan libclang_rt.asan-arm-android
@@ -999,7 +856,6 @@ external/compiler-rt/lib/sanitizer_common libsan
 external/compiler-rt/lib/sanitizer_common libsan_32
 external/compiler-rt/lib/sanitizer_common/tests san_test
 external/compiler-rt/lib/sanitizer_common/tests san_test-Nolibc
-external/compiler-rt/lib/ubsan libubsan
 external/compiler-rt/lib/ubsan libubsan
 external/compiler-rt/lib/ubsan libubsan_32
 external/compiler-rt/lib/ubsan libubsan_standalone
@@ -1016,10 +872,8 @@ external/conscrypt conscrypt-tests-hostdex
 external/conscrypt conscrypt_generate_constants
 external/conscrypt conscrypt_unbundled
 external/conscrypt libconscrypt_jni
-external/conscrypt libconscrypt_jni
 external/conscrypt libconscrypt_jni_32
 external/conscrypt libconscrypt_static
-external/conscrypt libjavacrypto
 external/conscrypt libjavacrypto
 external/conscrypt libjavacrypto_32
 external/crcalc cr
@@ -1045,29 +899,22 @@ external/e2fsprogs/e2fsck libext2_profile
 external/e2fsprogs/e2fsck libext2_profile_host
 external/e2fsprogs/e2fsck libext2_profile_host_32
 external/e2fsprogs/lib/blkid libext2_blkid
-external/e2fsprogs/lib/blkid libext2_blkid
 external/e2fsprogs/lib/blkid libext2_blkid_host
 external/e2fsprogs/lib/blkid libext2_blkid_host_32
-external/e2fsprogs/lib/e2p libext2_e2p
 external/e2fsprogs/lib/e2p libext2_e2p
 external/e2fsprogs/lib/e2p libext2_e2p_host
 external/e2fsprogs/lib/e2p libext2_e2p_host_32
 external/e2fsprogs/lib/et libext2_com_err
-external/e2fsprogs/lib/et libext2_com_err
 external/e2fsprogs/lib/et libext2_com_err_host
 external/e2fsprogs/lib/et libext2_com_err_host_32
 external/e2fsprogs/lib/ext2fs libext2fs
-external/e2fsprogs/lib/ext2fs libext2fs
 external/e2fsprogs/lib/ext2fs libext2fs_host
 external/e2fsprogs/lib/ext2fs libext2fs_host_32
-external/e2fsprogs/lib/quota libext2_quota
 external/e2fsprogs/lib/quota libext2_quota
 external/e2fsprogs/lib/quota libext2_quota_host
 external/e2fsprogs/lib/quota libext2_quota_host_32
 external/e2fsprogs/lib/uuid libext2_uuid
 external/e2fsprogs/lib/uuid libext2_uuid_host
-external/e2fsprogs/lib/uuid libext2_uuid_host
-external/e2fsprogs/lib/uuid libext2_uuid_host_32
 external/e2fsprogs/lib/uuid libext2_uuid_host_32
 external/e2fsprogs/lib/uuid libext2_uuid_static
 external/e2fsprogs/misc badblocks
@@ -1091,31 +938,24 @@ external/eclipse-windowbuilder/propertysheet propertysheet
 external/eigen/blas libF77blas
 external/eigen/blas libF77blasV8
 external/elfutils/src/libdw libdw
-external/elfutils/src/libdw libdw
 external/elfutils/src/libdw libdw_32
-external/elfutils/src/libdwelf libdwelf
 external/elfutils/src/libdwelf libdwelf
 external/elfutils/src/libdwelf libdwelf_32
 external/elfutils/src/libdwfl libdwfl
-external/elfutils/src/libdwfl libdwfl
 external/elfutils/src/libdwfl libdwfl_32
 external/elfutils/src/libebl libebl
-external/elfutils/src/libebl libebl
 external/elfutils/src/libebl libebl_32
-external/elfutils/src/libelf libelf
 external/elfutils/src/libelf libelf
 external/elfutils/src/libelf libelf_32
 external/embunit libembunit
 external/emma emma
 external/emma emmalib
 external/expat libexpat
-external/expat libexpat
 external/expat libexpat-host
 external/expat libexpat-host_32
 external/expat libexpat_32
 external/expat libexpat_static
 external/eyes-free accessibilityvalidator
-external/f2fs-tools fsck.f2fs
 external/f2fs-tools fsck.f2fs
 external/f2fs-tools libf2fs_fmt
 external/f2fs-tools libf2fs_fmt_host
@@ -1124,8 +964,6 @@ external/f2fs-tools libf2fs_fmt_host_dyn
 external/f2fs-tools libf2fs_fmt_host_dyn_32
 external/f2fs-tools mkfs.f2fs
 external/f2fs-tools system/extras/f2fs_utils make_f2fs
-external/f2fs-tools system/extras/f2fs_utils make_f2fs
-external/fdlibm libfdlibm
 external/fdlibm libfdlibm
 external/fdlibm libfdlibm_32
 external/fio fio
@@ -1224,7 +1062,6 @@ external/icu/icu4j icu4j-tests
 external/icu/icu4j icu4j-tests-host
 external/icu/icu4j icu4j-tests-hostdex
 external/icu/icu4j prebuilts/misc/common/icu4j icu4j
-external/icu/icu4j prebuilts/misc/common/icu4j icu4j
 external/iproute2/ip ip
 external/iproute2/lib libiprouteutil
 external/iproute2/lib libnetlink
@@ -1249,7 +1086,6 @@ external/jarjar jarjar-apache-ant
 external/jarjar jarjar-asm
 external/jarjar jarjar-asm-commons
 external/jarjar jarjar-maven-plugin-api
-external/javasqlite libsqlite_jni
 external/javasqlite libsqlite_jni
 external/javasqlite libsqlite_jni_32
 external/javasqlite sqlite-jdbc
@@ -1332,16 +1168,12 @@ external/libavc libavcenc
 external/libcap-ng libcap-ng
 external/libcap-ng pscap
 external/libcxx libc++
-external/libcxx libc++
 external/libcxx libc++_32
-external/libcxx libc++_static
 external/libcxx libc++_static
 external/libcxx libc++_static_32
 external/libcxxabi libc++abi
-external/libcxxabi libc++abi
 external/libcxxabi libc++abi_32
 external/libcxxabi libunwind_llvm
-external/libdrm libdrm
 external/libdrm libdrm
 external/libdrm/libkms libkms
 external/libdrm/nouveau libdrm_nouveau
@@ -1355,8 +1187,6 @@ external/libexif/libexif libexif
 external/libgsm libgsm
 external/libhevc libhevcdec
 external/liblzf external/liblzf liblzf
-external/liblzf external/liblzf liblzf
-external/liblzf external/liblzf liblzf
 external/liblzf liblzf_32
 external/libmpeg2 libmpeg2dec
 external/libnfc-nci libnfc-nci
@@ -1365,33 +1195,20 @@ external/libnfc-nci/halimpl/pn54x nfc_nci.generic
 external/libnfc-nxp libnfc
 external/libnfc-nxp libnfc_ndef
 external/libnl libnl
-external/libnl libnl
 external/libogg libogg
 external/libopus libopus
 external/libpcap libpcap
 external/libphonenumber libphonenumber
 external/libphonenumber libphonenumber-platform
 external/libpng external/libpng libpng
-external/libpng external/libpng libpng
-external/libpng external/libpng libpng
 external/libpng libpng_32
 external/libpng pngtest
 external/libselinux external/libselinux libselinux
-external/libselinux external/libselinux libselinux
-external/libselinux external/libselinux libselinux
-external/libselinux external/libselinux libselinux
-external/libselinux libselinux_32
 external/libselinux libselinux_32
 external/libunwind external/libunwind libunwind
-external/libunwind external/libunwind libunwind
-external/libunwind external/libunwind libunwind
-external/libunwind external/libunwind libunwind
-external/libunwind libunwind-unit-tests
 external/libunwind libunwind-unit-tests
 external/libunwind libunwind-unit-tests_32
 external/libunwind libunwind_32
-external/libunwind libunwind_32
-external/libunwind libunwindbacktrace
 external/libunwind libunwindbacktrace
 external/libunwind libunwindbacktrace_32
 external/libutf libutf
@@ -1401,33 +1218,20 @@ external/libvpx libvpx
 external/libvpx libwebm
 external/libvterm libvterm
 external/libxml2 external/libxml2 libxml2
-external/libxml2 external/libxml2 libxml2
-external/libxml2 external/libxml2 libxml2
 external/libxml2 libxml2_32
 external/libyuv libyuv_static
 external/linux-tools-perf/src/tools/perf perf
 external/littlemock littlemock
 external/llvm prebuilts/sdk/tools libLLVM
-external/llvm prebuilts/sdk/tools libLLVM
-external/llvm/lib/Analysis libLLVMAnalysis
 external/llvm/lib/Analysis libLLVMAnalysis
 external/llvm/lib/Analysis/IPA libLLVMipa
-external/llvm/lib/Analysis/IPA libLLVMipa
-external/llvm/lib/AsmParser libLLVMAsmParser
 external/llvm/lib/AsmParser libLLVMAsmParser
 external/llvm/lib/Bitcode/Reader libLLVMBitReader
-external/llvm/lib/Bitcode/Reader libLLVMBitReader
-external/llvm/lib/Bitcode/Writer libLLVMBitWriter
 external/llvm/lib/Bitcode/Writer libLLVMBitWriter
 external/llvm/lib/CodeGen libLLVMCodeGen
-external/llvm/lib/CodeGen libLLVMCodeGen
-external/llvm/lib/CodeGen/AsmPrinter libLLVMAsmPrinter
 external/llvm/lib/CodeGen/AsmPrinter libLLVMAsmPrinter
 external/llvm/lib/CodeGen/SelectionDAG libLLVMSelectionDAG
-external/llvm/lib/CodeGen/SelectionDAG libLLVMSelectionDAG
 external/llvm/lib/DebugInfo/DWARF libLLVMDebugInfoDWARF
-external/llvm/lib/DebugInfo/DWARF libLLVMDebugInfoDWARF
-external/llvm/lib/DebugInfo/PDB libLLVMDebugInfoPDB
 external/llvm/lib/DebugInfo/PDB libLLVMDebugInfoPDB
 external/llvm/lib/ExecutionEngine libLLVMExecutionEngine
 external/llvm/lib/ExecutionEngine/Interpreter libLLVMInterpreter
@@ -1435,103 +1239,56 @@ external/llvm/lib/ExecutionEngine/MCJIT libLLVMMCJIT
 external/llvm/lib/ExecutionEngine/Orc libLLVMOrcJIT
 external/llvm/lib/ExecutionEngine/RuntimeDyld libLLVMRuntimeDyld
 external/llvm/lib/IR libLLVMCore
-external/llvm/lib/IR libLLVMCore
-external/llvm/lib/IRReader libLLVMIRReader
 external/llvm/lib/IRReader libLLVMIRReader
 external/llvm/lib/LTO libLLVMLTO
-external/llvm/lib/LTO libLLVMLTO
-external/llvm/lib/Linker libLLVMLinker
 external/llvm/lib/Linker libLLVMLinker
 external/llvm/lib/MC libLLVMMC
-external/llvm/lib/MC libLLVMMC
-external/llvm/lib/MC/MCDisassembler libLLVMMCDisassembler
 external/llvm/lib/MC/MCDisassembler libLLVMMCDisassembler
 external/llvm/lib/MC/MCParser libLLVMMCParser
-external/llvm/lib/MC/MCParser libLLVMMCParser
-external/llvm/lib/Object libLLVMObject
 external/llvm/lib/Object libLLVMObject
 external/llvm/lib/Option libLLVMOption
-external/llvm/lib/Option libLLVMOption
-external/llvm/lib/Passes libLLVMPasses
 external/llvm/lib/Passes libLLVMPasses
 external/llvm/lib/ProfileData libLLVMProfileData
-external/llvm/lib/ProfileData libLLVMProfileData
-external/llvm/lib/Support libLLVMSupport
 external/llvm/lib/Support libLLVMSupport
 external/llvm/lib/TableGen libLLVMTableGen
 external/llvm/lib/Target libLLVMTarget
-external/llvm/lib/Target libLLVMTarget
-external/llvm/lib/Target/AArch64 libLLVMAArch64CodeGen
 external/llvm/lib/Target/AArch64 libLLVMAArch64CodeGen
 external/llvm/lib/Target/AArch64/AsmParser libLLVMAArch64AsmParser
-external/llvm/lib/Target/AArch64/AsmParser libLLVMAArch64AsmParser
-external/llvm/lib/Target/AArch64/Disassembler libLLVMAArch64Disassembler
 external/llvm/lib/Target/AArch64/Disassembler libLLVMAArch64Disassembler
 external/llvm/lib/Target/AArch64/InstPrinter libLLVMAArch64AsmPrinter
-external/llvm/lib/Target/AArch64/InstPrinter libLLVMAArch64AsmPrinter
-external/llvm/lib/Target/AArch64/MCTargetDesc libLLVMAArch64Desc
 external/llvm/lib/Target/AArch64/MCTargetDesc libLLVMAArch64Desc
 external/llvm/lib/Target/AArch64/TargetInfo libLLVMAArch64Info
-external/llvm/lib/Target/AArch64/TargetInfo libLLVMAArch64Info
-external/llvm/lib/Target/AArch64/Utils libLLVMAArch64Utils
 external/llvm/lib/Target/AArch64/Utils libLLVMAArch64Utils
 external/llvm/lib/Target/ARM libLLVMARMCodeGen
-external/llvm/lib/Target/ARM libLLVMARMCodeGen
-external/llvm/lib/Target/ARM/AsmParser libLLVMARMAsmParser
 external/llvm/lib/Target/ARM/AsmParser libLLVMARMAsmParser
 external/llvm/lib/Target/ARM/Disassembler libLLVMARMDisassembler
-external/llvm/lib/Target/ARM/Disassembler libLLVMARMDisassembler
-external/llvm/lib/Target/ARM/InstPrinter libLLVMARMAsmPrinter
 external/llvm/lib/Target/ARM/InstPrinter libLLVMARMAsmPrinter
 external/llvm/lib/Target/ARM/MCTargetDesc libLLVMARMDesc
-external/llvm/lib/Target/ARM/MCTargetDesc libLLVMARMDesc
-external/llvm/lib/Target/ARM/TargetInfo libLLVMARMInfo
 external/llvm/lib/Target/ARM/TargetInfo libLLVMARMInfo
 external/llvm/lib/Target/Mips libLLVMMipsCodeGen
-external/llvm/lib/Target/Mips libLLVMMipsCodeGen
-external/llvm/lib/Target/Mips/AsmParser libLLVMMipsAsmParser
 external/llvm/lib/Target/Mips/AsmParser libLLVMMipsAsmParser
 external/llvm/lib/Target/Mips/Disassembler libLLVMMipsDisassembler
-external/llvm/lib/Target/Mips/Disassembler libLLVMMipsDisassembler
-external/llvm/lib/Target/Mips/InstPrinter libLLVMMipsAsmPrinter
 external/llvm/lib/Target/Mips/InstPrinter libLLVMMipsAsmPrinter
 external/llvm/lib/Target/Mips/MCTargetDesc libLLVMMipsDesc
-external/llvm/lib/Target/Mips/MCTargetDesc libLLVMMipsDesc
-external/llvm/lib/Target/Mips/TargetInfo libLLVMMipsInfo
 external/llvm/lib/Target/Mips/TargetInfo libLLVMMipsInfo
 external/llvm/lib/Target/X86 libLLVMX86CodeGen
-external/llvm/lib/Target/X86 libLLVMX86CodeGen
-external/llvm/lib/Target/X86/AsmParser libLLVMX86AsmParser
 external/llvm/lib/Target/X86/AsmParser libLLVMX86AsmParser
 external/llvm/lib/Target/X86/Disassembler libLLVMX86Disassembler
-external/llvm/lib/Target/X86/Disassembler libLLVMX86Disassembler
-external/llvm/lib/Target/X86/InstPrinter libLLVMX86AsmPrinter
 external/llvm/lib/Target/X86/InstPrinter libLLVMX86AsmPrinter
 external/llvm/lib/Target/X86/MCTargetDesc libLLVMX86Desc
-external/llvm/lib/Target/X86/MCTargetDesc libLLVMX86Desc
 external/llvm/lib/Target/X86/TargetInfo libLLVMX86Info
-external/llvm/lib/Target/X86/TargetInfo libLLVMX86Info
-external/llvm/lib/Target/X86/Utils libLLVMX86Utils
 external/llvm/lib/Target/X86/Utils libLLVMX86Utils
 external/llvm/lib/Transforms/Hello LLVMHello
 external/llvm/lib/Transforms/IPO libLLVMipo
-external/llvm/lib/Transforms/IPO libLLVMipo
-external/llvm/lib/Transforms/InstCombine libLLVMInstCombine
 external/llvm/lib/Transforms/InstCombine libLLVMInstCombine
 external/llvm/lib/Transforms/Instrumentation libLLVMInstrumentation
-external/llvm/lib/Transforms/Instrumentation libLLVMInstrumentation
-external/llvm/lib/Transforms/ObjCARC libLLVMTransformObjCARC
 external/llvm/lib/Transforms/ObjCARC libLLVMTransformObjCARC
 external/llvm/lib/Transforms/Scalar libLLVMScalarOpts
-external/llvm/lib/Transforms/Scalar libLLVMScalarOpts
 external/llvm/lib/Transforms/Utils libLLVMTransformUtils
-external/llvm/lib/Transforms/Utils libLLVMTransformUtils
-external/llvm/lib/Transforms/Vectorize libLLVMVectorize
 external/llvm/lib/Transforms/Vectorize libLLVMVectorize
 external/llvm/tools/bugpoint bugpoint
 external/llvm/tools/bugpoint-passes BugpointPasses
 external/llvm/tools/dsymutil llvm-dsymutil
-external/llvm/tools/llc llc
 external/llvm/tools/llc llc
 external/llvm/tools/lli lli
 external/llvm/tools/lli/ChildTarget lli-child-target
@@ -1547,7 +1304,6 @@ external/llvm/tools/llvm-dis llvm-dis
 external/llvm/tools/llvm-dwarfdump llvm-dwarfdump
 external/llvm/tools/llvm-extract llvm-extract
 external/llvm/tools/llvm-link llvm-link
-external/llvm/tools/llvm-link llvm-link
 external/llvm/tools/llvm-lto llvm-lto
 external/llvm/tools/llvm-mc llvm-mc
 external/llvm/tools/llvm-mcmarkup llvm-mcmarkup
@@ -1559,10 +1315,8 @@ external/llvm/tools/llvm-readobj llvm-readobj
 external/llvm/tools/llvm-rtdyld llvm-rtdyld
 external/llvm/tools/llvm-size llvm-size
 external/llvm/tools/llvm-symbolizer llvm-symbolizer
-external/llvm/tools/llvm-symbolizer llvm-symbolizer
 external/llvm/tools/macho-dump macho-dump
 external/llvm/tools/obj2yaml obj2yaml
-external/llvm/tools/opt opt
 external/llvm/tools/opt opt
 external/llvm/tools/verify-uselistorder verify-uselistorder
 external/llvm/tools/yaml2obj yaml2obj
@@ -1582,7 +1336,6 @@ external/marisa-trie libmarisa-trie-gnustl-rtti
 external/marisa-trie libmarisa_alpha-trie-gnustl-rtti
 external/mdnsresponder dnssd
 external/mdnsresponder libmdns_jni_static
-external/mdnsresponder libmdnssd
 external/mdnsresponder libmdnssd
 external/mdnsresponder mdnsd
 external/messageformat messageformat
@@ -1783,8 +1536,6 @@ external/parameter-framework/xmlserializer libxmlserializer
 external/parameter-framework/xmlserializer libxmlserializer_host
 external/parameter-framework/xmlserializer libxmlserializer_host_32
 external/pcre external/pcre libpcre
-external/pcre external/pcre libpcre
-external/pcre external/pcre libpcre
 external/pcre libpcre_32
 external/pdfium/core libpdfiumcore
 external/pdfium/fpdfsdk libpdfium
@@ -1799,9 +1550,7 @@ external/protobuf host-libprotobuf-java-lite
 external/protobuf host-libprotobuf-java-micro
 external/protobuf host-libprotobuf-java-nano
 external/protobuf libprotobuf-cpp-full
-external/protobuf libprotobuf-cpp-full
 external/protobuf libprotobuf-cpp-full-gnustl-rtti
-external/protobuf libprotobuf-cpp-lite
 external/protobuf libprotobuf-cpp-lite
 external/protobuf libprotobuf-java-lite
 external/protobuf libprotobuf-java-micro
@@ -1842,7 +1591,6 @@ external/roboto-fonts RobotoCondensed-Regular.ttf
 external/safe-iop libsafe_iop
 external/safe-iop/testsuite safe_iop_test
 external/scrypt libscrypt_static
-external/scrypt libscrypt_static
 external/scrypt libscrypt_static_32
 external/scrypt/tests scrypt_test
 external/selinux/checkpolicy checkmodule
@@ -1850,9 +1598,6 @@ external/selinux/checkpolicy checkpolicy
 external/selinux/checkpolicy dispol
 external/selinux/libsepol chkcon
 external/selinux/libsepol external/selinux/libsepol libsepol
-external/selinux/libsepol external/selinux/libsepol libsepol
-external/selinux/libsepol external/selinux/libsepol libsepol
-external/selinux/libsepol libsepol_32
 external/selinux/libsepol libsepol_32
 external/sepolicy file_contexts
 external/sepolicy general_file_contexts
@@ -1888,13 +1633,10 @@ external/speex libspeex
 external/speex libspeex_googletts
 external/speex libspeexresampler
 external/sqlite/android libsqlite3_android
-external/sqlite/android libsqlite3_android
 external/sqlite/android libsqlite3_android_32
 external/sqlite/android libsqlite3_phone_number_utils_test
 external/sqlite/dist libsqlite
-external/sqlite/dist libsqlite
 external/sqlite/dist libsqlite_32
-external/sqlite/dist sqlite3
 external/sqlite/dist sqlite3
 external/squashfs-tools/squashfs-tools mksquashfs
 external/srtp libsrtp_static
@@ -1907,20 +1649,15 @@ external/svox/pico/tts libttspico_engine
 external/tagsoup tagsouplib
 external/tcpdump tcpdump
 external/tinyalsa libtinyalsa
-external/tinyalsa libtinyalsa
 external/tinyalsa libtinyalsa_32
 external/tinyalsa tinycap
 external/tinyalsa tinymix
 external/tinyalsa tinypcminfo
 external/tinyalsa tinyplay
-external/tinyalsa tinyplay
 external/tinycompress cplay
 external/tinycompress libtinycompress
 external/tinyxml external/tinyxml libtinyxml
-external/tinyxml external/tinyxml libtinyxml
-external/tinyxml external/tinyxml libtinyxml
 external/tinyxml libtinyxml_32
-external/tinyxml2 libtinyxml2
 external/tinyxml2 libtinyxml2
 external/tinyxml2 libtinyxml2_32
 external/toybox toybox
@@ -1934,7 +1671,6 @@ external/valgrind cachegrind-x86-linux
 external/valgrind callgrind-amd64-linux
 external/valgrind callgrind-arm-linux
 external/valgrind callgrind-x86-linux
-external/valgrind default.supp
 external/valgrind default.supp
 external/valgrind drd-amd64-linux
 external/valgrind drd-arm-linux
@@ -1961,7 +1697,6 @@ external/valgrind none-amd64-linux
 external/valgrind none-arm-linux
 external/valgrind none-x86-linux
 external/valgrind valgrind
-external/valgrind valgrind
 external/valgrind vgpreload_core-amd64-linux
 external/valgrind vgpreload_core-arm-linux
 external/valgrind vgpreload_core-x86-linux_32
@@ -1981,9 +1716,7 @@ external/vboot_reference futility-host
 external/vboot_reference libvboot_util-host
 external/vboot_reference libvboot_util-host_32
 external/vixl libvixl
-external/vixl libvixl
 external/vixl libvixl_32
-external/vixl libvixld
 external/vixl libvixld
 external/vixl libvixld_32
 external/vixl vixl-test-runner
@@ -2027,14 +1760,11 @@ external/webrtc/webrtc/system_wrappers/source libwebrtc_system_wrappers
 external/webrtc/webrtc/system_wrappers/source libwebrtc_system_wrappers_gnustl_static
 external/xmp_toolkit/XMPCore xmp_toolkit
 external/zlib external/zlib libz
-external/zlib external/zlib libz
-external/zlib external/zlib libz
 external/zlib gzip
 external/zlib libz-host
 external/zlib libz-host_32
 external/zlib libz_32
 external/zlib minigzip
-external/zopfli libzopfli
 external/zopfli libzopfli
 external/zopfli libzopfli_32
 external/zxing/core zxing-core-1.7
@@ -2168,50 +1898,36 @@ frameworks/av/tools/resampler_tools fir
 frameworks/base ext
 frameworks/base framework
 frameworks/base/cmds/am am
-frameworks/base/cmds/am am
 frameworks/base/cmds/app_process app_process
 frameworks/base/cmds/app_process app_process__asan
 frameworks/base/cmds/appops appops
-frameworks/base/cmds/appops appops
-frameworks/base/cmds/appwidget appwidget
 frameworks/base/cmds/appwidget appwidget
 frameworks/base/cmds/backup btool
 frameworks/base/cmds/bmgr bmgr
 frameworks/base/cmds/bootanimation bootanimation
 frameworks/base/cmds/bu bu
-frameworks/base/cmds/bu bu
-frameworks/base/cmds/content content
 frameworks/base/cmds/content content
 frameworks/base/cmds/dpm dpm
-frameworks/base/cmds/dpm dpm
-frameworks/base/cmds/hid hid
 frameworks/base/cmds/hid hid
 frameworks/base/cmds/hid/jni libhidcommand_jni
 frameworks/base/cmds/idmap idmap
 frameworks/base/cmds/ime ime
 frameworks/base/cmds/input input
 frameworks/base/cmds/interrupter interrupter
-frameworks/base/cmds/interrupter interrupter
 frameworks/base/cmds/interrupter interrupter_32
 frameworks/base/cmds/media media
 frameworks/base/cmds/media media_cmd
 frameworks/base/cmds/pm pm
 frameworks/base/cmds/requestsync requestsync
-frameworks/base/cmds/requestsync requestsync
 frameworks/base/cmds/screencap screencap
 frameworks/base/cmds/settings settings
-frameworks/base/cmds/settings settings
-frameworks/base/cmds/sm sm
 frameworks/base/cmds/sm sm
 frameworks/base/cmds/svc svc
 frameworks/base/cmds/telecom telecom
-frameworks/base/cmds/telecom telecom
-frameworks/base/cmds/uiautomator/cmds/uiautomator uiautomator
 frameworks/base/cmds/uiautomator/cmds/uiautomator uiautomator
 frameworks/base/cmds/uiautomator/instrumentation uiautomator-instrumentation
 frameworks/base/cmds/uiautomator/library android_uiautomator
 frameworks/base/cmds/uiautomator/library uiautomator.core
-frameworks/base/cmds/wm wm
 frameworks/base/cmds/wm wm
 frameworks/base/core/jni libandroid_runtime
 frameworks/base/core/res framework-res
@@ -2309,9 +2025,7 @@ frameworks/base/drm/jni libdrmframework_jni
 frameworks/base/graphics/tests/graphicstests FrameworksGraphicsTests
 frameworks/base/keystore/tests KeyStoreTests
 frameworks/base/libs/androidfw libandroidfw
-frameworks/base/libs/androidfw libandroidfw
 frameworks/base/libs/androidfw libandroidfw_32
-frameworks/base/libs/androidfw/tests libandroidfw_tests
 frameworks/base/libs/androidfw/tests libandroidfw_tests
 frameworks/base/libs/common_time common_time
 frameworks/base/libs/hwui libhwui
@@ -2508,70 +2222,41 @@ frameworks/base/tools/split-select libsplit-select_tests
 frameworks/base/tools/split-select split-select
 frameworks/base/tools/validatekeymaps validatekeymaps
 frameworks/compile/libbcc libbcc
-frameworks/compile/libbcc libbcc
-frameworks/compile/libbcc/bcinfo libbcinfo
 frameworks/compile/libbcc/bcinfo libbcinfo
 frameworks/compile/libbcc/bcinfo/BitReader_2_7 libLLVMBitReader_2_7
-frameworks/compile/libbcc/bcinfo/BitReader_2_7 libLLVMBitReader_2_7
 frameworks/compile/libbcc/bcinfo/BitReader_3_0 libLLVMBitReader_3_0
-frameworks/compile/libbcc/bcinfo/BitReader_3_0 libLLVMBitReader_3_0
-frameworks/compile/libbcc/bcinfo/Wrap libLLVMWrap
 frameworks/compile/libbcc/bcinfo/Wrap libLLVMWrap
 frameworks/compile/libbcc/bcinfo/tools bcinfo
 frameworks/compile/libbcc/lib/Core libbccCore
-frameworks/compile/libbcc/lib/Core libbccCore
-frameworks/compile/libbcc/lib/Renderscript libbccRenderscript
 frameworks/compile/libbcc/lib/Renderscript libbccRenderscript
 frameworks/compile/libbcc/lib/Support libbccSupport
-frameworks/compile/libbcc/lib/Support libbccSupport
-frameworks/compile/libbcc/tools/bcc bcc
 frameworks/compile/libbcc/tools/bcc bcc
 frameworks/compile/libbcc/tools/bcc_compat bcc_compat
 frameworks/compile/libbcc/tools/bcc_strip_attr bcc_strip_attr
 frameworks/compile/mclinker/lib/ADT libmcldADT
-frameworks/compile/mclinker/lib/ADT libmcldADT
-frameworks/compile/mclinker/lib/Core libmcldCore
 frameworks/compile/mclinker/lib/Core libmcldCore
 frameworks/compile/mclinker/lib/Fragment libmcldFragment
-frameworks/compile/mclinker/lib/Fragment libmcldFragment
-frameworks/compile/mclinker/lib/LD libmcldLD
 frameworks/compile/mclinker/lib/LD libmcldLD
 frameworks/compile/mclinker/lib/LD libmcldLDVariant
-frameworks/compile/mclinker/lib/LD libmcldLDVariant
-frameworks/compile/mclinker/lib/MC libmcldMC
 frameworks/compile/mclinker/lib/MC libmcldMC
 frameworks/compile/mclinker/lib/Object libmcldObject
-frameworks/compile/mclinker/lib/Object libmcldObject
-frameworks/compile/mclinker/lib/Script libmcldScript
 frameworks/compile/mclinker/lib/Script libmcldScript
 frameworks/compile/mclinker/lib/Support libmcldSupport
-frameworks/compile/mclinker/lib/Support libmcldSupport
-frameworks/compile/mclinker/lib/Target libmcldTarget
 frameworks/compile/mclinker/lib/Target libmcldTarget
 frameworks/compile/mclinker/lib/Target/AArch64 libmcldAArch64Target
-frameworks/compile/mclinker/lib/Target/AArch64 libmcldAArch64Target
-frameworks/compile/mclinker/lib/Target/AArch64/TargetInfo libmcldAArch64Info
 frameworks/compile/mclinker/lib/Target/AArch64/TargetInfo libmcldAArch64Info
 frameworks/compile/mclinker/lib/Target/ARM libmcldARMTarget
-frameworks/compile/mclinker/lib/Target/ARM libmcldARMTarget
-frameworks/compile/mclinker/lib/Target/ARM/TargetInfo libmcldARMInfo
 frameworks/compile/mclinker/lib/Target/ARM/TargetInfo libmcldARMInfo
 frameworks/compile/mclinker/lib/Target/Mips libmcldMipsTarget
-frameworks/compile/mclinker/lib/Target/Mips libmcldMipsTarget
-frameworks/compile/mclinker/lib/Target/Mips/TargetInfo libmcldMipsInfo
 frameworks/compile/mclinker/lib/Target/Mips/TargetInfo libmcldMipsInfo
 frameworks/compile/mclinker/lib/Target/X86 libmcldX86Target
-frameworks/compile/mclinker/lib/Target/X86 libmcldX86Target
 frameworks/compile/mclinker/lib/Target/X86/TargetInfo libmcldX86Info
-frameworks/compile/mclinker/lib/Target/X86/TargetInfo libmcldX86Info
-frameworks/compile/mclinker/tools/mcld ld.mc
 frameworks/compile/mclinker/tools/mcld ld.mc
 frameworks/compile/slang libslang
 frameworks/compile/slang llvm-rs-as
 frameworks/compile/slang llvm-rs-cc
 frameworks/compile/slang/BitWriter_2_9 libLLVMBitWriter_2_9
 frameworks/compile/slang/BitWriter_2_9_func libLLVMBitWriter_2_9_func
-frameworks/compile/slang/BitWriter_3_2 libLLVMBitWriter_3_2
 frameworks/compile/slang/BitWriter_3_2 libLLVMBitWriter_3_2
 frameworks/data-binding databinding-adapters
 frameworks/data-binding databinding-baselibrary
@@ -2587,7 +2272,6 @@ frameworks/ex/common/tests AndroidCommonTests
 frameworks/ex/framesequence android-common-framesequence
 frameworks/ex/framesequence/jni libframesequence
 frameworks/minikin/app hyphtool
-frameworks/minikin/libs/minikin libminikin
 frameworks/minikin/libs/minikin libminikin
 frameworks/minikin/libs/minikin libminikin_host
 frameworks/minikin/libs/minikin libminikin_host_32
@@ -2616,11 +2300,9 @@ frameworks/native/cmds/service service
 frameworks/native/cmds/servicemanager bctest
 frameworks/native/cmds/servicemanager servicemanager
 frameworks/native/libs/binder libbinder
-frameworks/native/libs/binder libbinder
 frameworks/native/libs/diskusage libdiskusage
 frameworks/native/libs/gui libgui
 frameworks/native/libs/gui/tests libgui_test
-frameworks/native/libs/input libinput
 frameworks/native/libs/input libinput
 frameworks/native/libs/input libinput_32
 frameworks/native/libs/input/tests InputChannel_test
@@ -2633,7 +2315,6 @@ frameworks/native/libs/ui/tests mat_test
 frameworks/native/libs/ui/tests vec_test
 frameworks/native/opengl/libagl libGLES_android
 frameworks/native/opengl/libs libEGL
-frameworks/native/opengl/libs libETC1
 frameworks/native/opengl/libs libETC1
 frameworks/native/opengl/libs libETC1_32
 frameworks/native/opengl/libs libGLESv1_CM
@@ -2723,7 +2404,6 @@ frameworks/opt/telephony/tests/telephonytests FrameworksTelephonyTests
 frameworks/opt/timezonepicker android-opt-timezonepicker
 frameworks/opt/vcard com.android.vcard
 frameworks/opt/vcard/tests AndroidVCardTests
-frameworks/rs libRS
 frameworks/rs libRS
 frameworks/rs libRSDriver
 frameworks/rs libRSSupport
@@ -2924,7 +2604,6 @@ hardware/libhardware/tests/keymaster keymaster_test
 hardware/libhardware/tests/nusensors test-nusensors
 hardware/libhardware_legacy libhardware_legacy
 hardware/libhardware_legacy libpower
-hardware/libhardware_legacy libpower
 hardware/libhardware_legacy/audio audio_policy.default
 hardware/libhardware_legacy/audio libaudiohw_legacy
 hardware/libhardware_legacy/audio libaudiopolicy_legacy
@@ -3102,11 +2781,9 @@ libcore host-cacert-fde84897.0
 libcore host-cacert-ff783690.0
 libcore jsr166-tests
 libcore libjavacore
-libcore libjavacore
 libcore libjavacore-benchmarks
 libcore libjavacore-unit-tests
 libcore libjavacore_32
-libcore libjavacoretests
 libcore libjavacoretests
 libcore libjavacoretests_32
 libcore target-cacert-00673b5b.0
@@ -3274,10 +2951,8 @@ libcore/tzdata tzdata_update
 libcore/tzdata tzdata_update-tests
 libcore/tzdata/update_test_app UpdateTestApp
 libnativehelper libnativehelper
-libnativehelper libnativehelper
 libnativehelper libnativehelper_32
 libnativehelper libnativehelper_compat_libc++
-libnativehelper/tests JniInvocation_test
 libnativehelper/tests JniInvocation_test
 ndk/sources/android/cpufeatures cpufeatures
 packages/apps/BasicSmsReceiver BasicSmsReceiver
@@ -3386,7 +3061,6 @@ packages/inputmethods/LatinIME/native/jni liblatinime_host_unittests
 packages/inputmethods/LatinIME/native/jni liblatinime_target_static_for_unittests
 packages/inputmethods/LatinIME/native/jni liblatinime_target_unittests
 packages/inputmethods/LatinIME/tests LatinIMETests
-packages/inputmethods/LatinIME/tools/make-keyboard-text packages/inputmethods/LatinIME/tools/make-keyboard-text/etc make-keyboard-text
 packages/inputmethods/LatinIME/tools/make-keyboard-text packages/inputmethods/LatinIME/tools/make-keyboard-text/etc make-keyboard-text
 packages/inputmethods/OpenWnn OpenWnn
 packages/inputmethods/OpenWnn/libs/libwnnDictionary libwnndict
@@ -3514,7 +3188,6 @@ prebuilts/sdk uiautomator_sdk_v9
 prebuilts/sdk uiautomator_sdk_vcurrent
 prebuilts/sdk uiautomator_sdk_vsystem_current
 prebuilts/sdk/tools jack
-prebuilts/sdk/tools jack
 prebuilts/sdk/tools jack-admin
 prebuilts/sdk/tools jack-launcher
 prebuilts/sdk/tools jill
@@ -3558,9 +3231,7 @@ prebuilts/tools/common/osgi osgi
 prebuilts/tools/linux-x86/swt swt
 sdk/annotations annotations
 sdk/dumpeventlog/etc sdk/dumpeventlog/src dumpeventlog
-sdk/dumpeventlog/etc sdk/dumpeventlog/src dumpeventlog
 sdk/emulator/mksdcard mksdcard
-sdk/eventanalyzer/etc sdk/eventanalyzer/src eventanalyzer
 sdk/eventanalyzer/etc sdk/eventanalyzer/src eventanalyzer
 sdk/hierarchyviewer/etc hierarchyviewer1
 sdk/hierarchyviewer/src hierarchyviewer
@@ -3598,18 +3269,12 @@ system/core/adb libadbd
 system/core/adf/libadf libadf
 system/core/adf/libadfhwc libadfhwc
 system/core/base libbase_32
-system/core/base libbase_32
-system/core/base libbase_test
 system/core/base libbase_test
 system/core/base libbase_test_32
-system/core/base system/core/base libbase
-system/core/base system/core/base libbase
-system/core/base system/core/base libbase
 system/core/base system/core/base libbase
 system/core/cpio mkbootfs
 system/core/debuggerd crasher
 system/core/debuggerd debuggerd
-system/core/debuggerd debuggerd_test
 system/core/debuggerd debuggerd_test
 system/core/debuggerd debuggerd_test_32
 system/core/fastboot fastboot
@@ -3629,24 +3294,15 @@ system/core/init init
 system/core/init init_tests
 system/core/init libinit
 system/core/libbacktrace backtrace_test
-system/core/libbacktrace backtrace_test
 system/core/libbacktrace backtrace_test_32
-system/core/libbacktrace libbacktrace
 system/core/libbacktrace libbacktrace
 system/core/libbacktrace libbacktrace_32
 system/core/libbacktrace libbacktrace_test
-system/core/libbacktrace libbacktrace_test
 system/core/libbacktrace libbacktrace_test_32
 system/core/libcutils libcutils_32
-system/core/libcutils libcutils_32
 system/core/libcutils system/core/libcutils libcutils
-system/core/libcutils system/core/libcutils libcutils
-system/core/libcutils system/core/libcutils libcutils
-system/core/libcutils system/core/libcutils libcutils
-system/core/libcutils/tests libcutils_test
 system/core/libcutils/tests libcutils_test
 system/core/libcutils/tests libcutils_test_32
-system/core/libcutils/tests libcutils_test_static
 system/core/libcutils/tests libcutils_test_static
 system/core/libcutils/tests libcutils_test_static_32
 system/core/libdiskconfig libdiskconfig
@@ -3656,54 +3312,33 @@ system/core/libion iontest
 system/core/libion libion
 system/core/libion/tests ion-unit-tests
 system/core/liblog liblog_32
-system/core/liblog liblog_32
-system/core/liblog system/core/liblog liblog
-system/core/liblog system/core/liblog liblog
-system/core/liblog system/core/liblog liblog
 system/core/liblog system/core/liblog liblog
 system/core/liblog/tests liblog-benchmarks
 system/core/liblog/tests liblog-unit-tests
 system/core/libmemtrack libmemtrack
 system/core/libmemtrack memtrack_test
 system/core/libmincrypt libmincrypt
-system/core/libmincrypt libmincrypt
 system/core/libmincrypt libmincrypt_32
 system/core/libmincrypt/test ecdsa_test
 system/core/libmincrypt/test rsa_test
 system/core/libmincrypt/tools dumpkey
 system/core/libnativebridge libnativebridge
-system/core/libnativebridge libnativebridge
 system/core/libnativebridge libnativebridge_32
 system/core/libnativebridge/tests CodeCacheCreate_test
-system/core/libnativebridge/tests CodeCacheCreate_test
-system/core/libnativebridge/tests CodeCacheExists_test
 system/core/libnativebridge/tests CodeCacheExists_test
 system/core/libnativebridge/tests CompleteFlow_test
-system/core/libnativebridge/tests CompleteFlow_test
-system/core/libnativebridge/tests InvalidCharsNativeBridge_test
 system/core/libnativebridge/tests InvalidCharsNativeBridge_test
 system/core/libnativebridge/tests NativeBridge2Signal_test
-system/core/libnativebridge/tests NativeBridge2Signal_test
-system/core/libnativebridge/tests NativeBridgeVersion_test
 system/core/libnativebridge/tests NativeBridgeVersion_test
 system/core/libnativebridge/tests NeedsNativeBridge_test
-system/core/libnativebridge/tests NeedsNativeBridge_test
-system/core/libnativebridge/tests PreInitializeNativeBridgeFail1_test
 system/core/libnativebridge/tests PreInitializeNativeBridgeFail1_test
 system/core/libnativebridge/tests PreInitializeNativeBridgeFail2_test
-system/core/libnativebridge/tests PreInitializeNativeBridgeFail2_test
-system/core/libnativebridge/tests PreInitializeNativeBridge_test
 system/core/libnativebridge/tests PreInitializeNativeBridge_test
 system/core/libnativebridge/tests ReSetupNativeBridge_test
-system/core/libnativebridge/tests ReSetupNativeBridge_test
-system/core/libnativebridge/tests UnavailableNativeBridge_test
 system/core/libnativebridge/tests UnavailableNativeBridge_test
 system/core/libnativebridge/tests ValidNameNativeBridge_test
-system/core/libnativebridge/tests ValidNameNativeBridge_test
-system/core/libnativebridge/tests libnativebridge-dummy
 system/core/libnativebridge/tests libnativebridge-dummy
 system/core/libnativebridge/tests libnativebridge-dummy_32
-system/core/libnativebridge/tests libnativebridge2-dummy
 system/core/libnativebridge/tests libnativebridge2-dummy
 system/core/libnativebridge/tests libnativebridge2-dummy_32
 system/core/libnetutils dhcptool
@@ -3724,26 +3359,18 @@ system/core/libsparse simg2img
 system/core/libsparse simg2img_host
 system/core/libsparse simg_dump.py
 system/core/libsuspend libsuspend
-system/core/libsuspend libsuspend
 system/core/libsync libsync
 system/core/libsync sync_test
 system/core/libsysutils libsysutils
 system/core/libusbhost libusbhost_32
 system/core/libusbhost system/core/libusbhost libusbhost
-system/core/libusbhost system/core/libusbhost libusbhost
-system/core/libusbhost system/core/libusbhost libusbhost
-system/core/libutils SharedBufferTest
 system/core/libutils SharedBufferTest
 system/core/libutils libutils_32
-system/core/libutils system/core/libutils libutils
-system/core/libutils system/core/libutils libutils
 system/core/libutils system/core/libutils libutils
 system/core/libutils/tests libutils_tests
 system/core/libutils/tests libutils_tests_host
 system/core/libziparchive libziparchive
 system/core/libziparchive libziparchive-host
-system/core/libziparchive libziparchive-host
-system/core/libziparchive libziparchive-host_32
 system/core/libziparchive libziparchive-host_32
 system/core/libziparchive ziparchive-tests
 system/core/libziparchive ziparchive-tests-host
@@ -3754,7 +3381,6 @@ system/core/logcat/tests logcat-unit-tests
 system/core/logd logd
 system/core/logd logpersist.start
 system/core/logd/tests logd-unit-tests
-system/core/logwrapper liblogwrap
 system/core/logwrapper liblogwrap
 system/core/logwrapper logwrapper
 system/core/mkbootimg mkbootimg
@@ -3769,17 +3395,13 @@ system/core/toolbox libtoolbox_du
 system/core/toolbox r
 system/core/toolbox toolbox
 system/core/tzdatacheck tzdatacheck
-system/core/tzdatacheck tzdatacheck
 system/extras/cpustats cpustats
 system/extras/ext4_utils ext2simg
-system/extras/ext4_utils ext2simg
-system/extras/ext4_utils ext4fixup
 system/extras/ext4_utils ext4fixup
 system/extras/ext4_utils libext4_utils
 system/extras/ext4_utils libext4_utils_host
 system/extras/ext4_utils libext4_utils_host_32
 system/extras/ext4_utils libext4_utils_static
-system/extras/ext4_utils make_ext4fs
 system/extras/ext4_utils make_ext4fs
 system/extras/ext4_utils mkuserimg.sh
 system/extras/ext4_utils setup_fs
@@ -3814,10 +3436,7 @@ system/extras/sane_schedstat sane_schedstat
 system/extras/showmap showmap
 system/extras/showslab showslab
 system/extras/simpleperf libsimpleperf
-system/extras/simpleperf libsimpleperf
 system/extras/simpleperf simpleperf
-system/extras/simpleperf simpleperf
-system/extras/simpleperf simpleperf_unit_test
 system/extras/simpleperf simpleperf_unit_test
 system/extras/slideshow slideshow
 system/extras/sound sound
@@ -3872,14 +3491,11 @@ system/keymaster libsoftkeymasterdevice
 system/media/alsa_utils libalsautils
 system/media/audio_route libaudioroute
 system/media/audio_utils libaudioutils
-system/media/audio_utils libaudioutils
 system/media/audio_utils libaudioutils_32
 system/media/audio_utils libfifo
 system/media/audio_utils libsndfile
-system/media/audio_utils libsndfile
 system/media/audio_utils libsndfile_32
 system/media/audio_utils/spdif libaudiospdif
-system/media/audio_utils/tests fifo_tests
 system/media/audio_utils/tests fifo_tests
 system/media/audio_utils/tests primitives_tests
 system/media/camera/src libcamera_metadata
