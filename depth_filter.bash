@@ -17,7 +17,7 @@ fi
 # use ag to replace grep
 QUERY_COMMAND=grep
 if type ag > /dev/null;then
-    QUERY_COMMAND="ag --nonumbers "
+    QUERY_COMMAND="ag --nonumbers -Q "
 fi
 
 mkdir -p tmp
