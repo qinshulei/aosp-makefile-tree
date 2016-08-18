@@ -18,3 +18,6 @@ android路径和模块的对应关系
 根据树的深度进行过滤，原始的树太深，很难流畅的打开，可以生成局部的树来浏览
 + system-tree.txt
 列出system.img里面的所有文件
+
+## screenshot
+![gephi-android](images/android_files.png)
